@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome
+# Welcome !
 
 I am currently an economics PhD student at the University of Paris Dauphine - PSL in Paris, planning to graduate in 2022. 
 
