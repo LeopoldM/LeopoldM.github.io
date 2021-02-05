@@ -85,7 +85,7 @@ author:
   bio              : "Ph. D. student and apprentice economist @ Paris Dauphine - PSL university" 
   location         : "Paris - France"
   employer         : 
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   email            : "leopold.monjoie@dauphine.eu"
   uri              : "http://www.ceem-dauphine.org/bio/fr/Leopold-Monjoie"
   bitbucket        :
@@ -94,14 +94,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "LeopoldM"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
