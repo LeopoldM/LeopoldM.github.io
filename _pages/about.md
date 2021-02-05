@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Leopold Monjoie"
+title: "Welcome !"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
