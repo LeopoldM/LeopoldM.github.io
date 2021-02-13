@@ -1,7 +1,7 @@
 ---
 title: "Other work in progress"
 collection: publications
-date: 2021-11-02
+date: 2021-02-11
 ---
 
 A survey on electricity market design: How can we model behaviors in capacity markets?
