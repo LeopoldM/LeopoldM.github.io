@@ -2,7 +2,7 @@
 title: "How to design reserve markets? The case of the demand function in capacity markets"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-date: 2021-13-02
+date: 2021-02-13
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Monjoie, Leopold (2021). Work in Progress.'
