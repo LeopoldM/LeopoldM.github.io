@@ -3,8 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-excerpt_separator: <!--more-->
-
 ---
 
 {% if author.googlescholar %}
@@ -26,4 +24,3 @@ Other work in progress
   
   * How market design affects actors' behaviors and price formation in an imperfect environment: the case of capacity markets. 
 
- <!--more-->
