@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ==========
-
+&nbsp;
 : 2019 – Present	Ph.D. Economics (in progress), University of Paris Dauphine Expected completion date:  2022.
 
 : 2016 – 2018		M.Sc. Energy and environmental economics, master Energie Finance Carbone, University of Paris Dauphine.
