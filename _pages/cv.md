@@ -12,6 +12,7 @@ redirect_from:
 Education
 ==========
 &nbsp;
+: 
 : 2019 – Present	Ph.D. Economics (in progress), University of Paris Dauphine Expected completion date:  2022.
 
 : 2016 – 2018		M.Sc. Energy and environmental economics, master Energie Finance Carbone, University of Paris Dauphine.
@@ -21,19 +22,19 @@ Education
 
 Research Fields
 ==========
-
+: 
 : Applied Microeconomics – Energy Economics – Industrial Organization – Regulation and Market Design
 
 
 Teaching
 ==========
-
+: 
 : Lecturer, Microeconomics - 2d year Bachelor. Université Paris Dauphine 2019–2021 (3 years)
 
 
 Honors and Scholarships
 ==========
-
+: 
 : 2020		French Association for Energy Economics Winner of Young Professional Second-Best Paper Award
 
 : 2018		University of Paris Dauphine - Valedictorian 
@@ -46,6 +47,7 @@ Professional experience
 
 Applied Work	
 ----------
+: 
 : 2018 – Present	Junior economist working with the French Transport System Operator RTE. I work for the TSO. My thesis work is used to shed light on developments in the European electricity system's market design.
 
 
@@ -53,6 +55,7 @@ Applied Work
 
 Internship
 ----------
+: 
 : 2018		Junior Economist – RTE (Paris)
 
 : 2017		Financial Analyst – Akuo Energy (Paris)
