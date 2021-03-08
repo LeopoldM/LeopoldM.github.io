@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-==========
+## Education
+
 &nbsp;
 : 2019 – Present	Ph.D. Economics (in progress), University of Paris Dauphine Expected completion date:  2022.
 
@@ -19,20 +19,20 @@ Education
 : 2013 – 2015		B.Sc. Applied Economics, University of Paris Dauphine - University of Orléans.
 
 
-Research Fields
-==========
+## Research Fields
+
 &nbsp;
 : Applied Microeconomics – Energy Economics – Industrial Organization – Regulation and Market Design
 
 
-Teaching
-==========
+## Teaching
+
 &nbsp;
 : Lecturer, Microeconomics - 2d year Bachelor. Université Paris Dauphine 2019–2021 (3 years)
 
 
-Honors and Scholarships
-==========
+## Honors and Scholarships
+
 &nbsp; 
 : 2020		French Association for Energy Economics Winner of Young Professional Second-Best Paper Award
 
@@ -41,8 +41,7 @@ Honors and Scholarships
 : 2015		University of Orleéns- Valedictorian 
 
 
-Professional experience
-==========
+## Professional experience
 
 Applied Work	
 ----------
