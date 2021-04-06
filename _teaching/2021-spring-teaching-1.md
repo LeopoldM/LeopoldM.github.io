@@ -7,14 +7,14 @@ location: "2019 : 2021 - Paris, France"
 ---
 
 
-Partial Equilibrium
+* Partial Equilibrium
 
-General Equilibrium
+* General Equilibrium
 
-Externalities
+* Externalities
 
-Public good
+* Public good
 
-Monopoly
+* Monopoly
 
-Oligopoly
+* Oligopoly
