@@ -152,6 +152,7 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+google_analytics: UA-205156630-1
 
 # Conversion
 markdown: kramdown
