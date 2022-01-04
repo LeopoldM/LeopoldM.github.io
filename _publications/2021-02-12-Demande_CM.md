@@ -1,5 +1,5 @@
 ---
-title: "Designing efficient capacity mechanisms: bidding behavior and product definition"
+title: "Demande"
 collection: publications
 permalink: /publication/2021-02-12-Demande_CM.md
 date: 2021-02-12
