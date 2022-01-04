@@ -7,8 +7,7 @@ author_profile: true
 
 
 
-
-Other work in progress
+Main Work
 ----
 
 {% if author.googlescholar %}
