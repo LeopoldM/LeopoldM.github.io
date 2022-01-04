@@ -13,14 +13,19 @@ Welcome !
 
 ------
 
-I am currently an economics PhD student at the University of Paris Dauphine - PSL in Paris, planning to graduate in 2022. 
+I am currently an economics PhD student at the University of Paris Dauphine - PSL in Paris, planning to graduate in 2023. 
 
 
 My research interests include Microeconomic Theory applied to the electricity sector, with a deep interest lying both in Market Design and Industrial Organisation, with also a broad view on Mechanism Design, Decision Theory, Political Economy and Regulatory economics.
 
 ------
 
-I mainly work on Investment Decisions and on the design of Capacity Markets, so that we have enough investment to produce electricity when needed and at the lowest cost. You can find my works here [here](http://leopoldmonjoie.com/publications/)
+I mainly work on 
+
+- Investment Decisions and their relation with subsequent markets. 
+- The design of Capacity Markets where producers can sell their investment avability in advance. 
+
+You can find my works here [here](http://leopoldmonjoie.com/publications/)
 
    <!--more--> 
 
