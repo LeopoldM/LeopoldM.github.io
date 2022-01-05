@@ -16,13 +16,16 @@ Publications
   {% include archive-single.html %}
 {% endfor %}
 
+------
 
-Main Work
+Main work in progress
 ----
 {% include base_path %}
 {% for post in site.workinprogress %}
   {% include archive-single.html %}
 {% endfor %}
+
+------
 
 Other work in progress
 ----
