@@ -1,9 +1,23 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 
 minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
@@ -51,6 +65,7 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -88,9 +103,8 @@ author:
   location         : "Paris - France"
   employer         : 
   pubmed           : 
-  email            : "leopold.monjoie@dauphine.psl.eu"
+  email            : "leopold.monjoie@dauphine.eu"
   uri              : "http://www.ceem-dauphine.org/bio/fr/Leopold-Monjoie"
-  googlescholar    : "https://scholar.google.com/citations?user=BtK0c18AAAAJ&hl=fr"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -155,6 +169,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 google_analytics: UA-205156630-1
 
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -187,6 +202,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  workinprogress:
     output: true
     permalink: /:collection/:path/
 
@@ -246,7 +264,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+  # _workinprogress
+  - scope:
+      path: ""
+      type: workinprogress
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -274,6 +300,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
 
 
 # Archives
@@ -311,3 +338,26 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+# Build settings
+theme: minima
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
