@@ -16,11 +16,11 @@ excerpt_separator: <!--more-->
 I am currently an economics Ph.D. student at the University of Paris Dauphine - PSL in Paris, planning to graduate in 2023. 
 
 
-My research interests include Microeconomic Theory applied to the electricity sector, with a deep interest lying both in Market Design and Industrial Organisation, with a broad view on Mechanism Design, Decision Theory, Political Economy, and Regulatory economics.
+My research interests include Microeconomic Theory applied to the electricity sector, with a deep interest lying at the crossroad between Market Design and Industrial Organisation, with a broad view on Mechanism Design, Decision Theory, Political Economy, and Regulatory economics.
 
 ------
 
-I mainly work on 
+I mainly work on :
 
 - Investment Decisions and how their relationship with subsequent markets. 
 - The design of Capacity Markets where producers can sell their investment availability in advance in return for additional remuneration. 
