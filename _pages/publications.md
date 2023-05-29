@@ -5,6 +5,17 @@ title: "Publications"
 author_profile: true
 ---
 
+
+
+Job Market Paper
+----
+
+{% include base_path %}
+{% for post in site.jobmarket reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
 Working Papers 
 ----
 
@@ -12,7 +23,7 @@ Working Papers
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-
+é"
 ------
 
 Work in progress
