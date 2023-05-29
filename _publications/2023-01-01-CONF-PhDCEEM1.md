@@ -1,12 +1,12 @@
 ---
-title: "CEEM Ph.D. Conference - Toward a new electricity market model? University Paris Dauphine - PSL, 2023"
+title: "1rst CEEM Ph.D. Conference - Toward a new electricity market model?"
 collection: conference
 categories : conf
 permalink: 
-date: 2023-01-01
+date: 2023-01-02
 venue:
 paperurl: '/files/Programme_PhD_Day.pdf'
 link: 'http://www.ceem-dauphine.org/agenda/en/e19cd70f7d2c7c2e7a941ed79aa3f17e970d2b17'
-citation: 
-abstract:
+citation: University Paris Dauphine - PSL, 2023
+abstract: 
 ---

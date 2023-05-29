@@ -7,7 +7,10 @@ author_profile: true
 
 
 
+-----
 _Job Market Paper_
+
+-----
 
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -16,11 +19,11 @@ _Job Market Paper_
     {% endif %}
 {% endfor %}
 
-----
 
-
+-----
 _Working Papers_
 
+-----
 
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -30,27 +33,22 @@ _Working Papers_
 {% endfor %}
 
 -----
-
 _Work in progress_
 
+-----
 
 {% include base_path %}
-{% for post in site.workinprogress %}
+{% for post in site.publications reversed %}
   {% if post.categories contains 'wip' %}
   {% include archive-single.html %}
     {% endif %}
 {% endfor %}
 
-------
 
-XXXXXX111
-
-XXXXXX
-
-------
-
+-----
 _Other work in progress_
 
+-----
 
   * A review on the state of the art of multi-unit auctions: what implications for the study of capacity market design.
 

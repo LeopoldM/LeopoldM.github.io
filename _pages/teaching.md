@@ -19,17 +19,15 @@ permalink: /teaching/
 	* Mergers and Vertical Integration
 	
  
-## Conference and Seminar organization 
+## Conference and Seminar main organization 
 ----
 
 {% include base_path %}
-{% for post in site.conference %}
+{% for post in site.publications reversed %}
+  {% if post.categories contains 'conf' %}
   {% include archive-single.html %}
+    {% endif %}
 {% endfor %}
 
 
-* CEEM Ph.D. Conference - Toward a new electricity market model? University Paris Dauphine - PSL, 2023
- <br/>
- 
-* CGEMP Energy, Environment and Climate Ph.D. Seminar with Daniel Herrera-Araujo and Stephanie Monjon.
 
