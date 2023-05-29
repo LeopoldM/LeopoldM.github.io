@@ -45,13 +45,6 @@ _Work in progress_
 
 XXXXXX111
 
-{% include base_path %}
-{% for post in site.workinprogress %}
-  {% if post.categories contains 'wip' %}
-  {% include archive-single.html %}
-    {% endif %}
-{% endfor %}
-
 XXXXXX
 
 ------
