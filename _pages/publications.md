@@ -11,7 +11,7 @@ _Job Market Paper_
 
 
 {% include base_path %}
-{% for post in site.jobmarket reversed %}
+{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -22,7 +22,7 @@ _Working Papers_
 
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.publications.categories.wp reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
