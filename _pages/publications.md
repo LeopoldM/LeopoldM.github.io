@@ -9,11 +9,8 @@ author_profile: true
 
 _Job Market Paper_
 
+{{ site.publications | find: "title", "XXXXXXX" }}
 
-{% include base_path %}
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 ----
 
