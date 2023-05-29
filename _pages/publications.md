@@ -47,9 +47,9 @@ XXXXXX111
 
 {% include base_path %}
 {% for post in site.workinprogress %}
-  {% if post.categories contains 'conf' %}
+  {% if post.categories contains 'wip' %}
   {% include archive-single.html %}
-{% endif %}
+    {% endif %}
 {% endfor %}
 
 XXXXXX
