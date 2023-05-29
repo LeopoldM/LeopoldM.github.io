@@ -21,7 +21,8 @@ _Working Papers_
 
 
 {% include base_path %}
-{% for post in site.categories.wp reversed %}
+{% for post in site.publications reversed %}
+  {% if post.categories contains 'wp' %}
   {% include archive-single.html %}
 {% endfor %}
 
