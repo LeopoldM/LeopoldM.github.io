@@ -10,8 +10,10 @@ author_profile: true
 _Job Market Paper_
 
 {% include base_path %}
-{% for post in site.publications %}  
-{% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.categories contains 'jmp' %}
+  {% include archive-single.html %}
+    {% endif %}
 {% endfor %}
 
 ----
