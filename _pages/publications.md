@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Publications 
+Working Papers 
 ----
 
 {% include base_path %}
