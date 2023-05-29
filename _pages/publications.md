@@ -36,7 +36,9 @@ _Work in progress_
 
 {% include base_path %}
 {% for post in site.workinprogress %}
+  {% if post.categories contains 'wip' %}
   {% include archive-single.html %}
+    {% endif %}
 {% endfor %}
 
 ------
@@ -44,10 +46,11 @@ XXXXXX111
 
 
 {% include base_path %}
-{% for post in site.conference %}
+{% for post in site.workinprogress %}
+  {% if post.categories contains 'conf' %}
   {% include archive-single.html %}
+{% endif %}
 {% endfor %}
-
 ------
 
 _Other work in progress_
