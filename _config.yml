@@ -207,6 +207,9 @@ collections:
   workinprogress:
     output: true
     permalink: /:collection/:path/
+  jobmarket:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -268,6 +271,14 @@ defaults:
   - scope:
       path: ""
       type: workinprogress
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _jobmarket
+  - scope:
+      path: ""
+      type: jobmarket
     values:
       layout: single
       author_profile: true
