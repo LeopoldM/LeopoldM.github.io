@@ -23,7 +23,7 @@ permalink: /teaching/
 ----
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.conference reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
