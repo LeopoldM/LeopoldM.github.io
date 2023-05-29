@@ -10,7 +10,7 @@ author_profile: true
 _Job Market Paper_
 
 {% include base_path %}
-{% for post in site.categories[wp] %}  
+{% for post in site.publications %}  
 {% include archive-single.html %}
 {% endfor %}
 
