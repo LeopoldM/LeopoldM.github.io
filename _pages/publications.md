@@ -19,7 +19,7 @@ _Working Papers_
 
 
 {% include base_path %}
-{% for post in site.publications reversed %}
+{% for post in site.categories.wp reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
