@@ -1,6 +1,7 @@
 ---
 title: "Designing efficient capacity mechanisms: bidding behavior and product definition"
 collection: publications
+categories: wp
 permalink: /publication/2010-10-01-paper-title-number-1
 date: 2021-02-12
 venue: 'CEEM Working Paper'
