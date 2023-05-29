@@ -39,6 +39,12 @@ _Work in progress_
   {% include archive-single.html %}
 {% endfor %}
 
+
+{% include base_path %}
+{% for post in site.conference %}
+  {% include archive-single.html %}
+{% endfor %}
+
 ------
 
 _Other work in progress_
