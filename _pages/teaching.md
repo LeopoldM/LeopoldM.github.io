@@ -4,7 +4,7 @@ title: "Teaching and Academic Work"
 permalink: /teaching/
 ---
 
-## Teaching at University of Paris Dauphine - PSL
+## University of Paris Dauphine - PSL
 ----
 	  
 * Lecturer - Microeconomics Theory - Undergraduate course (5 years 2018 : 2023)
@@ -13,7 +13,7 @@ permalink: /teaching/
  
  <br/>
  
-* Teaching Assistant - Industrial Organization and Imperfect Competition - Undergraduate course ( 2 year 2021 : 2023)
+* Teaching Assistant - Industrial Organization and Imperfect Competition - Undergraduate course ( 2 years 2021 : 2023)
 	* Advanced Monopoly and Oligopoly
 	* Product Differentiation and Marketing
 	* Mergers and Vertical Integration
