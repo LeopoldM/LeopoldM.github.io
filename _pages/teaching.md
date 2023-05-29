@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching and Academaic Work"
+title: "Teaching and Academic Work"
 permalink: /teaching/
 ---
 
