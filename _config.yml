@@ -210,7 +210,9 @@ collections:
   jobmarket:
     output: true
     permalink: /:collection/:path/
-
+conference:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -283,7 +285,14 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      
+   # _conference
+  - scope:
+      path: ""
+      type: conference
+    values:
+      layout: single
+      author_profile: true
+      share: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
