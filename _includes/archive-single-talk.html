@@ -28,7 +28,7 @@
   <h3>
       {% if post.collection == 'publications' %}
 	  {{ title }}
-       {% if post.collection == 'conference' %}
+       {% elsif post.collection == 'conference' %}
 	  {{ title }}
         {% elsif post.collection == 'workinprogress' %}
         {{ title }}
