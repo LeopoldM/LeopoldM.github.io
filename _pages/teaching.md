@@ -22,6 +22,11 @@ permalink: /teaching/
 ## Conference and Seminar organization 
 ----
 
+{% include base_path %}
+{% for post in site.conference reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
 
 * CEEM Ph.D. Conference - Toward a new electricity market model? University Paris Dauphine - PSL, 2023
  <br/>
