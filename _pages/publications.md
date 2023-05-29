@@ -42,8 +42,8 @@ _Work in progress_
 {% endfor %}
 
 ------
-XXXXXX111
 
+XXXXXX111
 
 {% include base_path %}
 {% for post in site.workinprogress %}
@@ -51,6 +51,9 @@ XXXXXX111
   {% include archive-single.html %}
 {% endif %}
 {% endfor %}
+
+XXXXXX
+
 ------
 
 _Other work in progress_
