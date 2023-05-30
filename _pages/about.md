@@ -25,7 +25,7 @@ I mainly work on :
 - Investment Decisions and their relationship with subsequent markets. 
 - The design of Capacity Markets where producers can sell their investment availability in advance in return for additional remuneration. 
 
-Even though I work primarily in the electricity sector, I am deeply interested in using theoretical advances from other economic fields to help build a more resilient energy system. At the same time, I am convinced that feedback from past and current experiences in electricity markets could significantly improve our understanding of how to efficiently provide essential goods such as medical supplies.
+Even though I work primarily in the electricity sector, I am deeply interested in using theoretical advances from other economic fields to help build a more resilient energy system. At the same time, I am convinced that feedback from past and current experiences in electricity markets could significantly improve our understanding of how to efficiently provide essential goods.
 
 You can find my works here [here](http://leopoldmonjoie.com/publications/)
 

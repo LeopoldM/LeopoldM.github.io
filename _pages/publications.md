@@ -1,14 +1,14 @@
 ---
 layout: archive
 permalink: /publications/
-title: "Publications"
+title: "Research"
 author_profile: true
 ---
 
 
 
 -----
-_Job Market Paper_
+## Job Market Paper
 
 -----
 
@@ -21,7 +21,8 @@ _Job Market Paper_
 
 
 -----
-_Working Papers_
+
+## Working Papers
 
 -----
 
@@ -33,7 +34,7 @@ _Working Papers_
 {% endfor %}
 
 -----
-_Work in progress_
+## Work in progress
 
 -----
 
@@ -46,7 +47,7 @@ _Work in progress_
 
 
 -----
-_Other work in progress_
+## Other work in progress
 
 -----
 

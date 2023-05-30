@@ -28,11 +28,11 @@
 
     <h3>
       {% if post.collection == 'publications' %}
-        {{ title }}
+         <p>  &#9632; &nbsp; {{ title }}   </p>
       {% elsif post.collection == 'workinprogress' %}
         {{ title }}
       {% elsif post.collection == 'jobmarket' %}
-        {{ title }}
+        {{ title }} 
 	    {% elsif post.collection == 'conference' %}
         {{ title }}
 	  {% elsif post.collection == 'talks' %}
@@ -81,3 +81,4 @@
     
   </article>
 </div>
+
