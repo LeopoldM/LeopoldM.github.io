@@ -44,9 +44,16 @@
 details > summary {
   padding: 2px 6px;
   width: 7.5em;
-  background-color: #EAF2F8;
+  background-color: #909497;
   border: none;
   cursor: pointer;
   list-style: none;
 }
 
+hr.new1 {
+  border-top: 1px solid #909497;
+}
+
+hr.new2 {
+  border-top: 3px solid #909497;
+}

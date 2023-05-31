@@ -7,10 +7,12 @@ author_profile: true
 
 
 
------
-## Job Market Paper
 
------
+<hr class="new2" style="width:13%">
+
+
+
+### Job Market Paper
 
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -20,11 +22,12 @@ author_profile: true
 {% endfor %}
 
 
------
 
-## Working Papers
+<hr class="new1">
 
------
+
+### Working Papers
+
 
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -33,10 +36,11 @@ author_profile: true
     {% endif %}
 {% endfor %}
 
------
-## Work in progress
+<hr class="new1">
 
------
+
+### Work in progress
+
 
 {% include base_path %}
 {% for post in site.publications reversed %}
@@ -46,10 +50,11 @@ author_profile: true
 {% endfor %}
 
 
------
-## Other work in progress
 
------
+<hr class="new1">
+
+### Other work in progress
+
 
   * A review on the state of the art of multi-unit auctions: what implications for the study of capacity market design.
 
