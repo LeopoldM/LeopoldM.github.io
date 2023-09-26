@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 ---
 
-**Welcome !**
+**Welcome!**
 
 ------
 
