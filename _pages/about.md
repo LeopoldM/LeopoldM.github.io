@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 
 ------
 
-Currently doing an economics Ph.D. at the University of Paris Dauphine - PSL in Paris and planning to graduate in march 2024.  **I am on the international economics academic job market in 2023-2024**.
+Currently doing an economics Ph.D. at the University of Paris Dauphine - PSL in Paris and planning to graduate in March 2024.  **I am on the international economics academic job market in 2023-2024**.
 
 
 My research interests include Microeconomic Theory applied to the electricity sector, with a deep interest lying at the crossroads between Market Design and Industrial Organisation, with a broad view on Mechanism Design, Decision Theory, Political Economy, and Regulatory economics.
