@@ -91,7 +91,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Abani, A.O., Hary, N., Rious, V.,&nbsp;&nbsp;&nbsp;Saguan, M., 2018. The impact of investors’ risk aversion on the performances&nbsp;&nbsp;&nbsp;of capacity remuneration mechanisms. Energy Policy 112, 84–97.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.enpol.2017.10.008.</td>
+    <td class="tg-0ys1">Abani, A.O., Hary, N., Rious, V.,&nbsp;&nbsp;&nbsp;Saguan, M., 2018. The impact of investors’ risk aversion on the performances&nbsp;&nbsp;&nbsp;of capacity remuneration mechanisms. Energy Policy 112, 84–97.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.enpol.2017.10.008.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Abani et al. (2018)</td>
@@ -123,7 +123,7 @@ citation:
     <td class="tg-0ys1">1 year</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Abani, A.O., Hary, N., Saguan, M.,&nbsp;&nbsp;&nbsp;Rious, V., 2016. Risk aversion and generation adequacy in liberalized&nbsp;&nbsp;&nbsp;electricity markets: benefits of capacity markets. 2016 13th Inter-tio-l&nbsp;&nbsp;&nbsp;Conference on the European Energy Market (EEM). pp. 1–5. http:// doi.org/10.1109/EEM.2016.7521264.</td>
+    <td class="tg-0ys1">Abani, A.O., Hary, N., Saguan, M.,&nbsp;&nbsp;&nbsp;Rious, V., 2016. Risk aversion and generation adequacy in liberalized&nbsp;&nbsp;&nbsp;electricity markets: benefits of capacity markets. 2016 13th Inter-tio-l&nbsp;&nbsp;&nbsp;Conference on the European Energy Market (EEM). pp. 1–5. https:// doi.org/10.1109/EEM.2016.7521264.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Allcott (2012)</td>
@@ -187,7 +187,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Assili, M., Javidi, D.B., Hossein,&nbsp;&nbsp;&nbsp;M., Ghazi, R., 2008. An improved mechanism for capacity payment based on&nbsp;&nbsp;&nbsp;system dy-mics modeling for investment planning in competitive electricity&nbsp;&nbsp;&nbsp;environment. Energy Policy 36, 3703–3713. http://doi. org/10.1016/j.enpol.2008.06.034.</td>
+    <td class="tg-0ys1">Assili, M., Javidi, D.B., Hossein,&nbsp;&nbsp;&nbsp;M., Ghazi, R., 2008. An improved mechanism for capacity payment based on&nbsp;&nbsp;&nbsp;system dy-mics modeling for investment planning in competitive electricity&nbsp;&nbsp;&nbsp;environment. Energy Policy 36, 3703–3713. https://doi. org/10.1016/j.enpol.2008.06.034.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Astier et Lambin (2019)</td>
@@ -251,7 +251,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Bajo-Buenestado, R., 2017. Welfare&nbsp;&nbsp;&nbsp;implications of capacity payments in a pricecapped electricity sector: a case&nbsp;&nbsp;&nbsp;study of the Texas market (ERCOT). Energy Econ. 64, 272–285.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.eneco.2017.03.026.</td>
+    <td class="tg-0ys1">Bajo-Buenestado, R., 2017. Welfare&nbsp;&nbsp;&nbsp;implications of capacity payments in a pricecapped electricity sector: a case&nbsp;&nbsp;&nbsp;study of the Texas market (ERCOT). Energy Econ. 64, 272–285.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.eneco.2017.03.026.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Barrosso et al (2008)</td>
@@ -315,7 +315,7 @@ citation:
     <td class="tg-0ys1">1 year</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Bhagwat, P.C., Iychettira, K.K.,&nbsp;&nbsp;&nbsp;Richstein, J.C., Chappin, E.J., de Vries, L.J., 2017a. The effectiveness of&nbsp;&nbsp;&nbsp;capacity markets in the presence of a high portfolio share of renewable&nbsp;&nbsp;&nbsp;energy sources. Util. Policy 48, 76–91. http://doi.org/10.1016/j.jup. 2017.09.003.</td>
+    <td class="tg-0ys1">Bhagwat, P.C., Iychettira, K.K.,&nbsp;&nbsp;&nbsp;Richstein, J.C., Chappin, E.J., de Vries, L.J., 2017a. The effectiveness of&nbsp;&nbsp;&nbsp;capacity markets in the presence of a high portfolio share of renewable&nbsp;&nbsp;&nbsp;energy sources. Util. Policy 48, 76–91. https://doi.org/10.1016/j.jup. 2017.09.003.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Bhagwat et al. (2017b)</td>
@@ -347,7 +347,7 @@ citation:
     <td class="tg-0ys1">1 year / Multi years</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid&nbsp;&nbsp;&nbsp;for both Annuel et Multi Annuel Contracts</td>
-    <td class="tg-0ys1">Bhagwat, P.C., Marcheselli, A.,&nbsp;&nbsp;&nbsp;Richstein, J.C., Chappin, E.J., de Vries, L.J., 2017b. An a-lysis of a&nbsp;&nbsp;&nbsp;forward capacity market with long-term contracts. Energy Policy 111, 255–267.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.enpol.2017.09.037.</td>
+    <td class="tg-0ys1">Bhagwat, P.C., Marcheselli, A.,&nbsp;&nbsp;&nbsp;Richstein, J.C., Chappin, E.J., de Vries, L.J., 2017b. An a-lysis of a&nbsp;&nbsp;&nbsp;forward capacity market with long-term contracts. Energy Policy 111, 255–267.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.enpol.2017.09.037.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Briggs and Kleit (2013)</td>
@@ -379,7 +379,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Briggs, R.J., Kleit, A., 2013.&nbsp;&nbsp;&nbsp;Resource adequacy reliability and the impacts of capacity subsidies in&nbsp;&nbsp;&nbsp;competitive electricity markets. Energy Econ. 40, 297–305. http://&nbsp;&nbsp;&nbsp;doi.org/10.1016/j.eneco.2013.07.009.</td>
+    <td class="tg-0ys1">Briggs, R.J., Kleit, A., 2013.&nbsp;&nbsp;&nbsp;Resource adequacy reliability and the impacts of capacity subsidies in&nbsp;&nbsp;&nbsp;competitive electricity markets. Energy Econ. 40, 297–305. https://&nbsp;&nbsp;&nbsp;doi.org/10.1016/j.eneco.2013.07.009.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Brown, D., (2018)</td>
@@ -411,7 +411,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Brown, D. P. (2018). The effect of&nbsp;&nbsp;&nbsp;subsidized entry on capacity auctions and the long-run resource adequacy of&nbsp;&nbsp;&nbsp;electricity markets. Energy Economics, 70, 205–232.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.eneco.2018.01.002</td>
+    <td class="tg-0ys1">Brown, D. P. (2018). The effect of&nbsp;&nbsp;&nbsp;subsidized entry on capacity auctions and the long-run resource adequacy of&nbsp;&nbsp;&nbsp;electricity markets. Energy Economics, 70, 205–232.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.eneco.2018.01.002</td>
   </tr>
   <tr>
     <td class="tg-vsex">Brown, D., (2018)</td>
@@ -475,7 +475,7 @@ citation:
     <td class="tg-0ys1">1 year</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Cepeda, M., Finon, D., 2011.&nbsp;&nbsp;&nbsp;Generation capacity adequacy in interdependent electricity markets. Energy&nbsp;&nbsp;&nbsp;Policy 39, 3128–3143. http://doi.org/10.1016/j.enpol.2011. 02.063.</td>
+    <td class="tg-0ys1">Cepeda, M., Finon, D., 2011.&nbsp;&nbsp;&nbsp;Generation capacity adequacy in interdependent electricity markets. Energy&nbsp;&nbsp;&nbsp;Policy 39, 3128–3143. https://doi.org/10.1016/j.enpol.2011. 02.063.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Cepeda and Finon (2013)</td>
@@ -507,7 +507,7 @@ citation:
     <td class="tg-0ys1">1 year</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Cepeda, M., Finon, D., 2013. How to&nbsp;&nbsp;&nbsp;correct for long-term exter-lities of large-scale wind power development by a&nbsp;&nbsp;&nbsp;capacity mechanism? Energy Policy 61, 671–685.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.enpol.2013.06.046.</td>
+    <td class="tg-0ys1">Cepeda, M., Finon, D., 2013. How to&nbsp;&nbsp;&nbsp;correct for long-term exter-lities of large-scale wind power development by a&nbsp;&nbsp;&nbsp;capacity mechanism? Energy Policy 61, 671–685.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.enpol.2013.06.046.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Christiansen PN (2016)</td>
@@ -571,7 +571,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Creti, A., Fabra, N., 2007. Supply&nbsp;&nbsp;&nbsp;security and short-run capacity markets for electricity: why an ICAP&nbsp;&nbsp;&nbsp;mechanism is needed as part of standard market design. Energy Econ. 29,&nbsp;&nbsp;&nbsp;259–276. http://doi.org/10.1016/j.eneco.2006.04.007.</td>
+    <td class="tg-0ys1">Creti, A., Fabra, N., 2007. Supply&nbsp;&nbsp;&nbsp;security and short-run capacity markets for electricity: why an ICAP&nbsp;&nbsp;&nbsp;mechanism is needed as part of standard market design. Energy Econ. 29,&nbsp;&nbsp;&nbsp;259–276. https://doi.org/10.1016/j.eneco.2006.04.007.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Ehrenmann and Smeers (2011)</td>
@@ -699,7 +699,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Dual Prices</td>
     <td class="tg-0ys1">Dual Prices</td>
-    <td class="tg-0ys1">Fan, L., Norman, C.S., Patt, A.G.,&nbsp;&nbsp;&nbsp;2012. Electricity capacity investment under risk aversion: a case study of&nbsp;&nbsp;&nbsp;coal, gas, and concentrated solar power. Energy Econ. 34, 54–61.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.eneco.2011.10.010.</td>
+    <td class="tg-0ys1">Fan, L., Norman, C.S., Patt, A.G.,&nbsp;&nbsp;&nbsp;2012. Electricity capacity investment under risk aversion: a case study of&nbsp;&nbsp;&nbsp;coal, gas, and concentrated solar power. Energy Econ. 34, 54–61.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.eneco.2011.10.010.</td>
   </tr>
   <tr>
     <td class="tg-ikmr">Franco et al. (2015</td>
@@ -731,7 +731,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Franco, C.J., Castaneda, M., Dyner,&nbsp;&nbsp;&nbsp;I., 2015. Simulating the new British electricitymarket reform. Eur. J. Oper.&nbsp;&nbsp;&nbsp;Res. 245, 273–285. http://doi.org/10.1016/j.ejor. 2015.02.040.</td>
+    <td class="tg-0ys1">Franco, C.J., Castaneda, M., Dyner,&nbsp;&nbsp;&nbsp;I., 2015. Simulating the new British electricitymarket reform. Eur. J. Oper.&nbsp;&nbsp;&nbsp;Res. 245, 273–285. https://doi.org/10.1016/j.ejor. 2015.02.040.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Genoese et al. (2012)</td>
@@ -763,7 +763,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Genoese, M., Genoese, F., Fichtner,&nbsp;&nbsp;&nbsp;W., 2012. Model-based a-lysis of the impact of capacity markets on&nbsp;&nbsp;&nbsp;electricity markets. 2012 9th Inter-tio-l Conference on the European Energy&nbsp;&nbsp;&nbsp;Market (EEM 2012). pp. 1–6. http://doi.org/10.1109/EEM. 2012.6254704.</td>
+    <td class="tg-0ys1">Genoese, M., Genoese, F., Fichtner,&nbsp;&nbsp;&nbsp;W., 2012. Model-based a-lysis of the impact of capacity markets on&nbsp;&nbsp;&nbsp;electricity markets. 2012 9th Inter-tio-l Conference on the European Energy&nbsp;&nbsp;&nbsp;Market (EEM 2012). pp. 1–6. https://doi.org/10.1109/EEM. 2012.6254704.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Geze (2013)</td>
@@ -827,7 +827,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Dual Prices</td>
     <td class="tg-0ys1">Dual Prices</td>
-    <td class="tg-0ys1">Gurkan, G., Ozdemir, O., &amp;&nbsp;&nbsp;&nbsp;Smeers, Y. (2013). Generation Capacity Investments in Electricity Markets:&nbsp;&nbsp;&nbsp;Perfect Competition. Ssrn. http://doi.org/10.2139/ssrn.2314862</td>
+    <td class="tg-0ys1">Gurkan, G., Ozdemir, O., &amp;&nbsp;&nbsp;&nbsp;Smeers, Y. (2013). Generation Capacity Investments in Electricity Markets:&nbsp;&nbsp;&nbsp;Perfect Competition. Ssrn. https://doi.org/10.2139/ssrn.2314862</td>
   </tr>
   <tr>
     <td class="tg-vsex">Hach et al. (2016)</td>
@@ -859,7 +859,7 @@ citation:
     <td class="tg-0ys1">1 year / Multi years</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Hach, D., Chyong, C.K., Spinler, S.,&nbsp;&nbsp;&nbsp;2016. Capacity market design options: a dy-mic capacity investment model and&nbsp;&nbsp;&nbsp;a GB case study. Eur. J. Oper. Res. 249, 691–705.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.ejor.2015.08.034.</td>
+    <td class="tg-0ys1">Hach, D., Chyong, C.K., Spinler, S.,&nbsp;&nbsp;&nbsp;2016. Capacity market design options: a dy-mic capacity investment model and&nbsp;&nbsp;&nbsp;a GB case study. Eur. J. Oper. Res. 249, 691–705.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.ejor.2015.08.034.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Hasani and Hosseini (2013)</td>
@@ -923,7 +923,7 @@ citation:
     <td class="tg-0ys1">1 year</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Hobbs, B.F., Hu, M.-C., Inon, J.G.,&nbsp;&nbsp;&nbsp;Stoft, S.E., Bhavaraju, M.P., 2007. A dy-mic a-lysis of a demand curve-based&nbsp;&nbsp;&nbsp;capacity market proposal: the PJM reliability pricing model. IEEE Trans.&nbsp;&nbsp;&nbsp;Power Syst. 22, 3–14. http://doi.org/10.1109/TPWRS.2006. 887954.</td>
+    <td class="tg-0ys1">Hobbs, B.F., Hu, M.-C., Inon, J.G.,&nbsp;&nbsp;&nbsp;Stoft, S.E., Bhavaraju, M.P., 2007. A dy-mic a-lysis of a demand curve-based&nbsp;&nbsp;&nbsp;capacity market proposal: the PJM reliability pricing model. IEEE Trans.&nbsp;&nbsp;&nbsp;Power Syst. 22, 3–14. https://doi.org/10.1109/TPWRS.2006. 887954.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Höschle et al. (2017)</td>
@@ -955,7 +955,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Dual Prices</td>
     <td class="tg-0ys1">Dual Prices</td>
-    <td class="tg-0ys1">Höschle, H., de Jonghe, C., Le Cadre,&nbsp;&nbsp;&nbsp;H., Belmans, R., 2017. Electricity markets for energy, flexibility and&nbsp;&nbsp;&nbsp;availability – impact of capacity mechanisms on the remuneration of&nbsp;&nbsp;&nbsp;generation technologies. Energy Econ. 66, 372–383. http://doi.org/ 10.1016/j.eneco.2017.06.024.</td>
+    <td class="tg-0ys1">Höschle, H., de Jonghe, C., Le Cadre,&nbsp;&nbsp;&nbsp;H., Belmans, R., 2017. Electricity markets for energy, flexibility and&nbsp;&nbsp;&nbsp;availability – impact of capacity mechanisms on the remuneration of&nbsp;&nbsp;&nbsp;generation technologies. Energy Econ. 66, 372–383. https://doi.org/ 10.1016/j.eneco.2017.06.024.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Joskow and Tirole (2007</td>
@@ -987,7 +987,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Joskow, P., Tirole, J., 2007.&nbsp;&nbsp;&nbsp;Reliability and competitive electricity markets. RAND J. Econ. 38, 60–84.&nbsp;&nbsp;&nbsp;http://doi.org/10.1111/j.1756-2171.2007.tb00044.x.</td>
+    <td class="tg-0ys1">Joskow, P., Tirole, J., 2007.&nbsp;&nbsp;&nbsp;Reliability and competitive electricity markets. RAND J. Econ. 38, 60–84.&nbsp;&nbsp;&nbsp;https://doi.org/10.1111/j.1756-2171.2007.tb00044.x.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Joung, M., Baldick, R., Kim,&nbsp;&nbsp;&nbsp;J. (2009)</td>
@@ -1019,7 +1019,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Joung, M., Baldick, R., &amp; Kim, J.&nbsp;&nbsp;&nbsp;(2009). Strategic behavior in electricity capacity markets. Proceedings of&nbsp;&nbsp;&nbsp;the 42nd Annual Hawaii Inter-tio-l Conference on System Sciences, HICSS, 1–6.&nbsp;&nbsp;&nbsp;http://doi.org/10.1109/HICSS.2009.404</td>
+    <td class="tg-0ys1">Joung, M., Baldick, R., &amp; Kim, J.&nbsp;&nbsp;&nbsp;(2009). Strategic behavior in electricity capacity markets. Proceedings of&nbsp;&nbsp;&nbsp;the 42nd Annual Hawaii Inter-tio-l Conference on System Sciences, HICSS, 1–6.&nbsp;&nbsp;&nbsp;https://doi.org/10.1109/HICSS.2009.404</td>
   </tr>
   <tr>
     <td class="tg-vsex">Khalfallah (2009)</td>
@@ -1051,7 +1051,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Khalfallah, M. H. (2009). A Game&nbsp;&nbsp;&nbsp;Theoretic Model for Generation Capacity Adequacy in Electricity Markets: A&nbsp;&nbsp;&nbsp;Comparison between Investment Incentive Mechanisms. Ssrn.&nbsp;&nbsp;&nbsp;http://doi.org/10.2139/ssrn.1405291</td>
+    <td class="tg-0ys1">Khalfallah, M. H. (2009). A Game&nbsp;&nbsp;&nbsp;Theoretic Model for Generation Capacity Adequacy in Electricity Markets: A&nbsp;&nbsp;&nbsp;Comparison between Investment Incentive Mechanisms. Ssrn.&nbsp;&nbsp;&nbsp;https://doi.org/10.2139/ssrn.1405291</td>
   </tr>
   <tr>
     <td class="tg-vsex">Kim and Kim (2012) </td>
@@ -1083,7 +1083,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Kim, H., Kim, S.-S., 2012. The&nbsp;&nbsp;&nbsp;resource adequacy scheme in the Korean electricity market. Energy Policy 47,&nbsp;&nbsp;&nbsp;133–144. http://doi.org/10.1016/j.enpol.2012.04.035. Kwoka, J., Madjarov,&nbsp;&nbsp;&nbsp;K., 2007. Making markets work: the special case of electricity. Electr. J.&nbsp;&nbsp;&nbsp;20, 24–36. http://doi.org/10.1016/j.tej.2007.10.008.</td>
+    <td class="tg-0ys1">Kim, H., Kim, S.-S., 2012. The&nbsp;&nbsp;&nbsp;resource adequacy scheme in the Korean electricity market. Energy Policy 47,&nbsp;&nbsp;&nbsp;133–144. https://doi.org/10.1016/j.enpol.2012.04.035. Kwoka, J., Madjarov,&nbsp;&nbsp;&nbsp;K., 2007. Making markets work: the special case of electricity. Electr. J.&nbsp;&nbsp;&nbsp;20, 24–36. https://doi.org/10.1016/j.tej.2007.10.008.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Kraft E. (2017)</td>
@@ -1147,7 +1147,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Léautier, T.-O., 2016. The visible&nbsp;&nbsp;&nbsp;hand: ensuring optimal investment in electric power generation. Energy J. 37,&nbsp;&nbsp;&nbsp;http://doi.org/10.5547/01956574.37.2.tlea.</td>
+    <td class="tg-0ys1">Léautier, T.-O., 2016. The visible&nbsp;&nbsp;&nbsp;hand: ensuring optimal investment in electric power generation. Energy J. 37,&nbsp;&nbsp;&nbsp;https://doi.org/10.5547/01956574.37.2.tlea.</td>
   </tr>
   <tr>
     <td class="tg-vsex">LeCadre, H., Soubra, M.&nbsp;&nbsp;&nbsp;(2014)</td>
@@ -1211,7 +1211,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Dual Prices</td>
     <td class="tg-0ys1">Dual Prices</td>
-    <td class="tg-0ys1">Lynch, M.Á., Devine, M.T., 2017.&nbsp;&nbsp;&nbsp;Investment vs. refurbishment: examining capacity payment mechanisms using&nbsp;&nbsp;&nbsp;stochastic mixed complementarity problems. Energy J. 38,&nbsp;&nbsp;&nbsp;http://doi.org/10.5547/01956574.38.2.mlyn.</td>
+    <td class="tg-0ys1">Lynch, M.Á., Devine, M.T., 2017.&nbsp;&nbsp;&nbsp;Investment vs. refurbishment: examining capacity payment mechanisms using&nbsp;&nbsp;&nbsp;stochastic mixed complementarity problems. Energy J. 38,&nbsp;&nbsp;&nbsp;https://doi.org/10.5547/01956574.38.2.mlyn.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Maere d’Aertrycke et al.&nbsp;&nbsp;&nbsp;(2017)</td>
@@ -1243,7 +1243,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">de Maere dAertrycke, G., Ehrenmann,&nbsp;&nbsp;&nbsp;A., Smeers, Y., 2017. Investment with incomplete markets for risk: the need&nbsp;&nbsp;&nbsp;for long-term contracts. Energy Policy 105, 571–583.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.enpol.2017.01.029. de Sisternes, F.J., Parsons,&nbsp;&nbsp;&nbsp;J.E., 2016. The Impact of Uncertainty on the Need and Design of Capacity&nbsp;&nbsp;&nbsp;Remuneration Mechanisms in Low-carbon Power Systems.</td>
+    <td class="tg-0ys1">de Maere dAertrycke, G., Ehrenmann,&nbsp;&nbsp;&nbsp;A., Smeers, Y., 2017. Investment with incomplete markets for risk: the need&nbsp;&nbsp;&nbsp;for long-term contracts. Energy Policy 105, 571–583.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.enpol.2017.01.029. de Sisternes, F.J., Parsons,&nbsp;&nbsp;&nbsp;J.E., 2016. The Impact of Uncertainty on the Need and Design of Capacity&nbsp;&nbsp;&nbsp;Remuneration Mechanisms in Low-carbon Power Systems.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Mastropietro, P., et al&nbsp;&nbsp;&nbsp;(2016)</td>
@@ -1275,7 +1275,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Mastropietro, P., Herrero, I.,&nbsp;&nbsp;&nbsp;Rodilla, P., Batlle, C., 2016. A model-based a-lysis on the impact of&nbsp;&nbsp;&nbsp;explicit pe-lty schemes in capacity mechanisms. Appl. Energy 168, 406–417.&nbsp;&nbsp;&nbsp;http://dx.doi.org/10.1016/j.apenergy.2016.01.108.</td>
+    <td class="tg-0ys1">Mastropietro, P., Herrero, I.,&nbsp;&nbsp;&nbsp;Rodilla, P., Batlle, C., 2016. A model-based a-lysis on the impact of&nbsp;&nbsp;&nbsp;explicit pe-lty schemes in capacity mechanisms. Appl. Energy 168, 406–417.&nbsp;&nbsp;&nbsp;https://dx.doi.org/10.1016/j.apenergy.2016.01.108.</td>
   </tr>
   <tr>
     <td class="tg-vsex">McRaey, S., Wolak, F., (2019)</td>
@@ -1339,7 +1339,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Meyer, R., Gore, O., 2015.&nbsp;&nbsp;&nbsp;Cross-border effects of capacity mechanisms: do uncoordi-ted market design&nbsp;&nbsp;&nbsp;changes contradict the goals of the European market integration? Energy Econ.&nbsp;&nbsp;&nbsp;51, 9–20. http://doi.org/10.1016/j.eneco.2015.06. 011.</td>
+    <td class="tg-0ys1">Meyer, R., Gore, O., 2015.&nbsp;&nbsp;&nbsp;Cross-border effects of capacity mechanisms: do uncoordi-ted market design&nbsp;&nbsp;&nbsp;changes contradict the goals of the European market integration? Energy Econ.&nbsp;&nbsp;&nbsp;51, 9–20. https://doi.org/10.1016/j.eneco.2015.06. 011.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Milstein I, Tishler A. (2019)</td>
@@ -1467,7 +1467,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Schwenen, S., 2014. Market design and&nbsp;&nbsp;&nbsp;supply security in imperfect power markets. Energy Econ. 43, 256–263.&nbsp;&nbsp;&nbsp;http://doi.org/10.1016/j.eneco.2014.02.012.</td>
+    <td class="tg-0ys1">Schwenen, S., 2014. Market design and&nbsp;&nbsp;&nbsp;supply security in imperfect power markets. Energy Econ. 43, 256–263.&nbsp;&nbsp;&nbsp;https://doi.org/10.1016/j.eneco.2014.02.012.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Schwenen (2015)</td>
@@ -1499,7 +1499,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
-    <td class="tg-0ys1">Schwenen, S., 2015. Strategic bidding&nbsp;&nbsp;&nbsp;in multi-unit auctions with capacity constrained bidders: the New York&nbsp;&nbsp;&nbsp;capacity market. RAND J. Econ. 46, 730–750. http://doi.&nbsp;&nbsp;&nbsp;org/10.1111/1756-2171.12104.</td>
+    <td class="tg-0ys1">Schwenen, S., 2015. Strategic bidding&nbsp;&nbsp;&nbsp;in multi-unit auctions with capacity constrained bidders: the New York&nbsp;&nbsp;&nbsp;capacity market. RAND J. Econ. 46, 730–750. https://doi.&nbsp;&nbsp;&nbsp;org/10.1111/1756-2171.12104.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Teirila, J. (2017)</td>
@@ -1563,7 +1563,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Dual Prices</td>
     <td class="tg-0ys1">Dual Prices</td>
-    <td class="tg-0ys1">Traber, T., 2017. Capacity&nbsp;&nbsp;&nbsp;remuneration mechanisms for reliability in the integrated European&nbsp;&nbsp;&nbsp;electricity market: effects on welfare and distribution through 2023. Util.&nbsp;&nbsp;&nbsp;Policy 46, 1–14. http://doi.org/10.1016/j.jup.2016.10.005.</td>
+    <td class="tg-0ys1">Traber, T., 2017. Capacity&nbsp;&nbsp;&nbsp;remuneration mechanisms for reliability in the integrated European&nbsp;&nbsp;&nbsp;electricity market: effects on welfare and distribution through 2023. Util.&nbsp;&nbsp;&nbsp;Policy 46, 1–14. https://doi.org/10.1016/j.jup.2016.10.005.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Winzer (2013)</td>
@@ -1595,7 +1595,7 @@ citation:
     <td class="tg-0ys1">-</td>
     <td class="tg-0ys1">Uniform Price / Multi Unit / seal bid</td>
     <td class="tg-0ys1">-</td>
-    <td class="tg-0ys1">Winzer, C., 2013. Robustness of&nbsp;&nbsp;&nbsp;various capacity mechanisms to regulatory errors. 2013 10th Inter-tio-l&nbsp;&nbsp;&nbsp;Conference on the European Energy Market (EEM). pp. 1–7.&nbsp;&nbsp;&nbsp;http://doi.org/10.1109/EEM.2013.6607374.</td>
+    <td class="tg-0ys1">Winzer, C., 2013. Robustness of&nbsp;&nbsp;&nbsp;various capacity mechanisms to regulatory errors. 2013 10th Inter-tio-l&nbsp;&nbsp;&nbsp;Conference on the European Energy Market (EEM). pp. 1–7.&nbsp;&nbsp;&nbsp;https://doi.org/10.1109/EEM.2013.6607374.</td>
   </tr>
   <tr>
     <td class="tg-vsex">Peluchon (2019)</td>
