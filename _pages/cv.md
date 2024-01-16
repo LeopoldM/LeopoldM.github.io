@@ -6,5 +6,5 @@ redirect_from:
   - /resume
 ---
 
-<embed src="https://LeopoldM.github.io/files/cvacademic.pdf" width="500" height="375" 
+<embed src="http://LeopoldM.github.io/files/cvacademic.pdf" width="500" height="375" 
  type="application/pdf">

@@ -25,14 +25,14 @@ redirect_from:
 ## Tips and hints
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
+* Go to the [commit list](http://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
   * Green check: successful build
   * Orange circle: building
   * Red X: error
   * No icon: not built
 
 ## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
+ * [Liquid syntax guide](http://shopify.github.io/liquid/tags/control-flow/)
 
 ## Markdown guide
 
@@ -84,7 +84,7 @@ Startup
 :   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
 
 Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+:   I'll let Bill O'Reilly [explain](http://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
 
 ## Unordered Lists (Nested)
 
@@ -135,7 +135,7 @@ Make any link standout more when applying the `.btn` class.
 
 ### Anchor Tag (aka. Link)
 
-This is an example of a [link](https://github.com "Github").
+This is an example of a [link](http://github.com "Github").
 
 ### Abbreviation Tag
 
