@@ -1,5 +1,5 @@
 ---
-title: "Litterature Review CrM"
+title: "Literature Review CrM"
 collection: table
 categories : table
 permalink: 

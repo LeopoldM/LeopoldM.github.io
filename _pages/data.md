@@ -5,10 +5,10 @@ permalink: /data/
 ---
 
 
-## Litterature review on Capacity Remuneration Mechanisms
+## Literature review on Capacity Remuneration Mechanisms
 ----
 
-This is ongoing-work. Don't hesitate to contact me for information or suggestions. This works is in line with previous litterature review (Bublitz et al. 2019, Scouflaire 2019). it focuses on the actors behaviors modeling in academic papers on Capacity Remuneration Mechanisms.
+This is ongoing-work. Don't hesitate to contact me for information or suggestions. This works is in line with previous literature review (Bublitz et al. 2019, Scouflaire 2019). it focuses on the actors behaviors modeling in academic papers on Capacity Remuneration Mechanisms.
 
 ----
 
