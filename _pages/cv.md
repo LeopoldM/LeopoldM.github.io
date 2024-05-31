@@ -6,5 +6,6 @@ redirect_from:
   - /resume
 ---
 
-[See it here :)](https://LeopoldM.github.io/files/cvacademic.pdf)
+[See it here](https://LeopoldM.github.io/files/cvacademic.pdf)
+
 
