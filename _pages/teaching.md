@@ -4,6 +4,15 @@ title: "Teaching and Academic Work"
 permalink: /teaching/
 ---
 
+## Aalto University
+----
+	  
+* Teaching Assistant - Microeconomic Policy - Master's Programme in Economics (1 year : 2024)
+	* Consumer Theory
+	* Externalities, Market Design
+	* Incomplete Information, Adverse Selection
+	
+ 
 ## University of Paris Dauphine - PSL
 ----
 	  
@@ -13,7 +22,7 @@ permalink: /teaching/
  
  <br/>
  
-* Teaching Assistant - Industrial Organization and Imperfect Competition - Undergraduate course ( 2 years 2021 : 2023)
+* Teaching Assistant - Industrial Organization and Imperfect Competition - Undergraduate course (2 years 2021 : 2023)
 	* Advanced Monopoly and Oligopoly
 	* Product Differentiation and Marketing
 	* Mergers and Vertical Integration
