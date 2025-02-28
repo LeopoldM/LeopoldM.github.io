@@ -12,7 +12,7 @@ author_profile: true
 
 
 
-### Job Market Paper
+### Main work
 
 {% include base_path %}
 {% for post in site.publications reversed %}
