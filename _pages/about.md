@@ -21,6 +21,7 @@ My research interests include Microeconomic Theory, with a deep interest lying a
 
 I mainly work on the following:
 
+- Consumer choices and redistributive policies.
 - Investment decisions. 
 - The design of long-term mechanisms to provide resilient economic systems. 
 
