@@ -17,15 +17,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX to PDF
+      - name: Show repo tree (sanity check)
+        run: |
+          pwd
+          ls -la
+          ls -la cv || true
+
+      - name: Compile LaTeX to PDF (lualatex)
+        id: tex
         uses: xu-cheng/latex-action@v3
         with:
           working_directory: cv
           root_file: monjoie_cv.tex
           latexmk_use_lualatex: true
+          # Pre-install common packages that often cause failures
           pre_compile: |
             tlmgr update --self
-            tlmgr install fontspec microtype enumitem csquotes xcolor hyperref titlesec parskip longtable
+            tlmgr install fontspec microtype enumitem csquotes xcolor hyperref titlesec parskip longtable etoolbox
+          # Capture full log for debugging
+          extra_compile_args: -interaction=nonstopmode -file-line-error
+
+      # If LaTeX failed, surface the error lines to the log
+      - name: Print LaTeX errors (if any)
+        if: failure()
+        run: |
+          echo "---- First 200 lines of monjoie_cv.log ----"
+          sed -n '1,200p' cv/monjoie_cv.log || true
+          echo "---- grep of error markers ----"
+          (grep -nE '^!|LaTeX Error|Undefined control sequence|Missing package|Emergency stop' cv/monjoie_cv.log || true)
+
+      # Always upload the .log so we can inspect it
+      - name: Upload LaTeX log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: latex-log
+          path: cv/monjoie_cv.log
+          if-no-files-found: ignore
 
       - name: Prepare output folder
         run: mkdir -p public
