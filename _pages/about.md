@@ -13,9 +13,11 @@ excerpt_separator: <!--more-->
 
 ------
 
-I am currently postdoctoral fellow at Aalto University. I received my Ph.D. in Economics from the University of Paris Dauphine - PSL in March 2024.  
+I am a postdoctoral researcher in Environmental Economics at Aalto University. My research interests lie at the crossroads between Market Design, Regulation, and Industrial Organisation.
 
-My research interests include Microeconomic Theory, with a deep interest lying at the crossroads between Market Design, Regulation and Industrial Organisation.
+I received my Ph.D. in Economics from the University of Paris Dauphine—PSL in 2024.  
+
+See the latest version of my CV here.
 
 ------
 
