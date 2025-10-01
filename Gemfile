@@ -1,18 +1,21 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
 
 gem "jekyll", "~> 4.3"
 
 gem "tzinfo", "~> 2.0"
 
-gem "tzinfo-data", "~> 1.2024"
-
-gem "webrick", "~> 1.8"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "minima", "~> 2.5"
 
-gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-paginate"
 
-gem "jekyll-sitemap", "~> 1.4"
+gem "jekyll-sitemap"
 
-gem "jekyll-gist", "~> 1.5"
+gem "jekyll-gist"
 
-gem "jekyll-redirect-from", "~> 0.16.0"
+gem "jekyll-redirect-from"
