@@ -1,0 +1,57 @@
+name: Build CV (LaTeX → PDF + HTML)
+
+
+on:
+push:
+paths:
+- "cv/**"
+- ".github/workflows/cv.yml"
+workflow_dispatch: {}
+
+
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+with:
+persist-credentials: false
+
+
+- name: Compile LaTeX to PDF
+uses: xu-cheng/latex-action@v3
+with:
+root_file: monjoie_cv.tex
+working_directory: cv
+latexmk_use_lualatex: true
+latexmk_shell_escape: true
+extra_system_packages: ""
+
+
+- name: Install Pandoc
+run: sudo apt-get update && sudo apt-get install -y pandoc
+
+
+- name: Generate HTML from LaTeX
+run: |
+mkdir -p public
+pandoc cv/monjoie_cv.tex \
+--from=latex \
+--to=html5 \
+--standalone \
+--metadata title="CV — Léopold Monjoie" \
+--css cv/cv.css \
+--output public/cv.html
+
+
+- name: Move PDF
+run: mv cv/monjoie_cv.pdf public/cv.pdf
+
+
+- name: Commit artifacts
+uses: EndBug/add-and-commit@v9
+with:
+add: "public/cv.pdf public/cv.html"
+message: "chore(cv): rebuild LaTeX PDF and HTML"
+env:
+GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

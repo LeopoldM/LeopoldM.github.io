@@ -1,0 +1,8 @@
+% ---- CV macros (keep this tiny and explicit) ----
+\newcommand{\cvsection}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}\vspace{-0.5em}\hrule\vspace{0.6em}}
+\newcommand{\cventry}[5]{% org, role, place, years, extra
+\textbf{#1} \hfill {#4}\\
+{#2} \emph{(#3)}\\
+{#5}\par\medskip}
+\newcommand{\cvitem}[2]{\textbf{#1:}~#2\par}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:#1}}
