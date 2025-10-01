@@ -30,30 +30,25 @@ jobs:
           working_directory: cv
           root_file: monjoie_cv.tex
           latexmk_use_lualatex: true
-          # Pre-install common packages that often cause failures
+          continue_on_error: true
           pre_compile: |
             tlmgr update --self
             tlmgr install fontspec microtype enumitem csquotes xcolor hyperref titlesec parskip longtable etoolbox
-          # Capture full log for debugging
-          extra_compile_args: -interaction=nonstopmode -file-line-error
+          # Optional: pass extra flags to latexmk (keep simple)
+          args: -halt-on-error
 
-      # If LaTeX failed, surface the error lines to the log
-      - name: Print LaTeX errors (if any)
-        if: failure()
+      # Check result and surface errors if it failed
+      - name: Verify PDF & show errors if missing
         run: |
-          echo "---- First 200 lines of monjoie_cv.log ----"
-          sed -n '1,200p' cv/monjoie_cv.log || true
-          echo "---- grep of error markers ----"
-          (grep -nE '^!|LaTeX Error|Undefined control sequence|Missing package|Emergency stop' cv/monjoie_cv.log || true)
-
-      # Always upload the .log so we can inspect it
-      - name: Upload LaTeX log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: latex-log
-          path: cv/monjoie_cv.log
-          if-no-files-found: ignore
+          if [ -f cv/monjoie_cv.pdf ]; then
+            echo "PDF generated successfully."
+          else
+            echo "::error::PDF not generated. Showing last 200 lines of LaTeX log:"
+            tail -n 200 cv/monjoie_cv.log || true
+            echo "---- grep for common errors ----"
+            (grep -nE '^!|LaTeX Error|Undefined control sequence|Missing package|Emergency stop' cv/monjoie_cv.log || true)
+            exit 1
+          fi
 
       - name: Prepare output folder
         run: mkdir -p public
