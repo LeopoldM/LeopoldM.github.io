@@ -17,38 +17,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Show repo tree (sanity check)
-        run: |
-          pwd
-          ls -la
-          ls -la cv || true
-
-      - name: Compile LaTeX to PDF (lualatex)
-        id: tex
+      - name: Compile LaTeX to PDF (LuaLaTeX)
         uses: xu-cheng/latex-action@v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-full:latest
           working_directory: cv
           root_file: monjoie_cv.tex
           latexmk_use_lualatex: true
-          continue_on_error: true
-          pre_compile: |
-            tlmgr update --self
-            tlmgr install fontspec microtype enumitem csquotes xcolor hyperref titlesec parskip longtable etoolbox
-          # Optional: pass extra flags to latexmk (keep simple)
-          args: -halt-on-error
-
-      # Check result and surface errors if it failed
-      - name: Verify PDF & show errors if missing
-        run: |
-          if [ -f cv/monjoie_cv.pdf ]; then
-            echo "PDF generated successfully."
-          else
-            echo "::error::PDF not generated. Showing last 200 lines of LaTeX log:"
-            tail -n 200 cv/monjoie_cv.log || true
-            echo "---- grep for common errors ----"
-            (grep -nE '^!|LaTeX Error|Undefined control sequence|Missing package|Emergency stop' cv/monjoie_cv.log || true)
-            exit 1
-          fi
+          # no pre/post compile, no tlmgr
 
       - name: Prepare output folder
         run: mkdir -p public
@@ -59,8 +35,7 @@ jobs:
       - name: Commit artifacts
         uses: EndBug/add-and-commit@v9
         with:
-          add: |
-            public/cv.pdf
+          add: public/cv.pdf
           message: "chore(cv): rebuild LaTeX PDF"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
