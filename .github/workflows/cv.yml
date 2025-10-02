@@ -17,18 +17,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show repo tree (sanity)
+        run: |
+          ls -la
+          ls -la cv || true
+
       - name: Compile LaTeX to PDF (pdflatex via latexmk)
         uses: xu-cheng/latex-action@v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-full:2024  # pin version; optional
           working_directory: cv
           root_file: monjoie_cv.tex
-          # Use latexmk with pdflatex (default)
           compiler: latexmk
           args: -pdf -halt-on-error -file-line-error
           continue_on_error: true
-          pre_compile: |
-            tlmgr update --self
-            tlmgr install geometry tabularx xcolor hyperref sectsty mathpazo
+
+      - name: Print last 200 lines of log on failure
+        if: failure()
+        run: |
+          echo "---- monjoie_cv.log (tail) ----"
+          tail -n 200 cv/monjoie_cv.log || true
 
       - name: Prepare output folder
         run: mkdir -p public
