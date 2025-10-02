@@ -13,19 +13,15 @@ excerpt_separator: <!--more-->
 
 ------
 
-I am a postdoctoral researcher in Environmental Economics at Aalto University. My research interests lie at the crossroads between market design, regulation, and industrial organisation.
+I’m a postdoctoral researcher in Environmental Economics at Aalto University. I study how market design and regulation can deliver reliable, efficient, and equitable outcomes in energy and environmental markets. My current work focuses on:
 
-I received my Ph.D. in Economics from the University of Paris Dauphine—PSL in 2024.  
+- Consumer choice and redistributive policy,
+- Investment decisions,
+- Long-run mechanisms to ensure reliable electricity supply.
+
+I received my Ph.D. in Economics from the University of Paris Dauphine-PSL in 2024.  
 
 See the latest version of my CV [here](https://LeopoldM.github.io/files/cvacademic.pdf).
-
-------
-
-My current topics of interest are:
-
-- Consumer choices and redistributive policies.
-- Investment decisions. 
-- The design of long-term mechanisms to provide reliability. 
 
 You can find my works [here](https://leopoldmonjoie.com/publications/)
 
