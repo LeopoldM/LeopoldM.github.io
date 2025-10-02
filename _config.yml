@@ -25,7 +25,7 @@ minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon
 locale                   : "en-US"
 title                    : "Leopold Monjoie"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Leopold Monjoie"
 description              : &description "personal description"
 url                      : https://LeopoldM.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

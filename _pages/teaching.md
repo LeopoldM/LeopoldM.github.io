@@ -7,7 +7,7 @@ permalink: /teaching/
 ## Aalto University
 ----
 	  
-* Teaching Assistant - Microeconomic Policy - Master's Programme in Economics (1 year : 2024)
+* Primary Instructor (2025), Teaching Assistant (2024)  - Microeconomic Policy - Master's Programme in Economics
 	* Consumer Theory
 	* Externalities, Market Design
 	* Incomplete Information, Adverse Selection

@@ -17,13 +17,13 @@ I’m a postdoctoral researcher in Environmental Economics at Aalto University. 
 
 - Consumer choice and redistributive policy,
 - Investment decisions,
-- Long-run mechanisms to ensure reliable electricity supply.
+- Long-run mechanisms to ensure reliable supply.
 
 I received my Ph.D. in Economics from the University of Paris Dauphine-PSL in 2024.  
 
 See the latest version of my CV [here](https://LeopoldM.github.io/public/cv.pdf).
 
-You can find my works [here](https://leopoldmonjoie.com/publications/)
+You can find my works [here](https://leopoldmonjoie.com/publications/).
 
    <!--more--> 
 
