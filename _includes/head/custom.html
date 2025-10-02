@@ -48,4 +48,28 @@
   h1, h2, h3 { font-family: var(--font-sans); font-weight: 600; letter-spacing: .2px; }
   table { font-variant-numeric: tabular-nums; }
 </style>
+<style>
+
+  /* Desktop: larger sidebar + bigger avatar */
+  @media (min-width: 1024px) {
+    .author__avatar img {
+      width: 160px !important;   /* adjust size here */
+      height: 160px !important;  /* same as width to keep it square */
+      border-radius: 8px !important;   /* 0 for sharp square, >0 for rounded square */
+      object-fit: cover;               /* crop to square nicely */
+      object-position: center;
+    }
+  }
+
+  /* Mobile/tablet: also square, but a bit smaller */
+  @media (max-width: 1023.98px) {
+    .author__avatar img {
+      width: 120px !important;
+      height: 120px !important;
+      border-radius: 8px !important;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+</style>
 <!-- end custom head snippets -->
