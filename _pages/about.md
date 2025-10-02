@@ -21,7 +21,7 @@ I’m a postdoctoral researcher in Environmental Economics at Aalto University. 
 
 I received my Ph.D. in Economics from the University of Paris Dauphine-PSL in 2024.  
 
-See the latest version of my CV [here](https://LeopoldM.github.io/files/cvacademic.pdf).
+See the latest version of my CV [here](https://LeopoldM.github.io/public/cv.pdf).
 
 You can find my works [here](https://leopoldmonjoie.com/publications/)
 
