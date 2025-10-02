@@ -1,45 +1,45 @@
-name: build-cv
+name:build-cv
 
 on:
-  push:
-    paths:
-      - "cv/**"
-      - ".github/workflows/cv.yml"
-  workflow_dispatch:
+push:
+paths:
+-"cv/**"
+-".github/workflows/cv.yml"
+workflow_dispatch:
 
 permissions:
-  contents: write
+contents:write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+build:
+runs-on:ubuntu-latest
+steps:
+-name:Checkout
+uses:actions/checkout@v4
 
-    - name: Compile LaTeX to PDF (pdflatex via latexmk)
-    uses: xu-cheng/latex-action@v3
-    with:
-    working_directory: cv
-    root_file: monjoie_cv.tex
-    # Use latexmk with pdflatex (default)
-    compiler: latexmk
-    args: -pdf -halt-on-error -file-line-error
-    continue_on_error: true
-    pre_compile: |
-      tlmgr update --self
-      tlmgr install geometry tabularx xcolor hyperref sectsty mathpazo
+-name:CompileLaTeXtoPDF(pdflatexvialatexmk)
+uses:xu-cheng/latex-action@v3
+with:
+working_directory:cv
+root_file:monjoie_cv.tex
+#Uselatexmkwithpdflatex(default)
+compiler:latexmk
+args:-pdf-halt-on-error-file-line-error
+continue_on_error:true
+pre_compile:|
+tlmgrupdate--self
+tlmgrinstallgeometrytabularxxcolorhyperrefsectstymathpazo
 
-      - name: Prepare output folder
-        run: mkdir -p public
+-name:Prepareoutputfolder
+run:mkdir-ppublic
 
-      - name: Move PDF
-        run: mv cv/monjoie_cv.pdf public/cv.pdf
+-name:MovePDF
+run:mvcv/monjoie_cv.pdfpublic/cv.pdf
 
-      - name: Commit artifacts
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: public/cv.pdf
-          message: "chore(cv): rebuild LaTeX PDF"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+-name:Commitartifacts
+uses:EndBug/add-and-commit@v9
+with:
+add:public/cv.pdf
+message:"chore(cv):rebuildLaTeXPDF"
+env:
+GITHUB_TOKEN:${{secrets.GITHUB_TOKEN}}
