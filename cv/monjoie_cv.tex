@@ -1,92 +1,284 @@
-% !TEX program = xelatex
-\documentclass[11pt,a4paper]{article}
-\usepackage[a4paper,margin=2cm]{geometry}
-\usepackage{fontspec}
-\usepackage{microtype}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{parskip}
+\documentclass[letterpaper]{article}
+
+\usepackage{geometry}
+\usepackage{tabularx} 
 \usepackage{xcolor}
-\usepackage{csquotes}
-\usepackage{longtable}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
 
-% --- typography\&links ---
-\setmainfont{Latin Modern Roman}
-\setsansfont{Latin Modern Sans}
-\hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue!50!black, pdfauthor={Léopold Monjoie}, pdftitle={Curriculum Vitae}}
-\titleformat*{\section}{\large\bfseries}
+\newcommand{\MYhref}[3][darkblue]{\href{#2}{\color{#1}{#3}}}%
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\definecolor{darkblue}{rgb}{0.0, 0.0, 0.55}
+\definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 
-% --- compact lists ---
-\setlist[itemize]{topsep=2pt,itemsep=2pt,parsep=0pt}
-\setlist[enumerate]{topsep=2pt,itemsep=2pt,parsep=0pt}
+\def\name{Leopold Monjoie}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+\setlength\parindent{0em}
+
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
 
 % --- macros ---
 \input{macros_cv.tex}
 
-% --- header ---
 \begin{document}
-{\Large \textbf{L\'eopold Monjoie}}\\[2pt]
-Postdoctoral Researcher in Economics\\
-Aalto University, Helsinki, Finland\\
-\href{mailto:leopold.monjoie@example.com}{leopold.monjoie@example.com} \;|\; \href{https://leopoldmonjoie.com}{leopoldmonjoie.com} \;|\; \href{https://scholar.google.com/}{Google Scholar}
+{\huge \name}
 
-\vspace{0.6em}\hrule\vspace{0.8em}
+\vspace{0.1in}
 
-% --- research fields / interests ---
-\cvsection{Fields}
-Industrial Organization; Mechanism Design; Energy  \&  Environmental Economics; Electricity Markets.
+\par\noindent\rule{\textwidth}{0.5pt}
 
-% --- appointments ---
-\cvsection{Appointments}
-\cventry{Aalto University}{Postdoctoral Researcher}{Helsinki, Finland}{2025--}{Projects with Prof. Matti Liski; capacity markets; dynamic pricing.}
-\cventry{Université Paris-Dauphine}{Teaching Fellow}{Paris, France}{2021--2024}{Microeconomics, Industrial Organization.}
+\vspace{0.1in}
 
-% --- education ---
-\cvsection{Education}
-\cventry{Université Paris-Dauphine}{Ph.D. Economics}{Paris, France}{2019--2025}{Thesis: \emph{Designing Markets for Reliability with Incomplete Information}. Supervisor: Fabien Roques.}
-\cventry{[Institution]}{M.Sc. Economics}{[City, Country]}{[Year]}{}
 
-% --- publications \& working papers ---
-\cvsection{Publications  \&  Working Papers}
-\begin{longtable}{@{}p{1cm}p{14cm}@{}}
-[WP] \& Monjoie, L. (2025). \emph{Designing Markets for Reliability with Incomplete Information}. Job Market Paper. Available at: \href{https://leopoldmonjoie.com/files/monjoie_jmp.pdf}{link}. \\
-% [JPE] \& Doe, J. and Monjoie, L. (2024). Title. \emph{Journal Name}. \doi{10.xxxx/xxxxx}. \\
-\end{longtable}
+\begin{minipage}{0.45\linewidth}
+  {Aalto University - Helsinki} \\
+  Department of Economics \\
+  Ekonominaukio 1,   \\
+  Espoo, Finland 02150
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (358) 50 476 4215 \\
+    Email: & \href{mailto:hotelling@unc.edu}{\tt leopold.monjoie@aalto.fi } \\
+    Homepage: & \href{http://leopoldmonjoie.com/}{\tt leopoldmonjoie.com} \\
+  \end{tabular}
+\end{minipage}
 
-% --- research in progress ---
-\cvsection{Research in Progress}
+\vspace{0.1in}
+
+\par\noindent\rule{\textwidth}{0.5pt}
+
+\section*{\textbf{Education}}
+
 \begin{itemize}
-  \item Capacity-contingent nonlinear pricing under redistributive concerns.
-  \item Bundling with adverse selection in dynamic electricity tariffs.
+  \item Ph.D. Economics, University of Paris Dauphine - PSL, Paris, France, March 2024.
+  \item
+
+\textbf{References:}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{8cm} p{7cm}}
+Ass. Prof. Fabien Roques (Primary Advisor) & Prof. Anna Creti (Secondary Advisor)       \\
+fabien.roques@dauphine.psl.eu     & anna.creti@dauphine.psl.eu \\
++33 1 53 05 36 29                 & +33 1 44 05 44 85          \\
+                                  &                            \\
+Prof. Patrice Geoffron (Secondary Advisor)        &  Prof. Bertrand Villeneuve                                    \\
+patrice.geoffron@dauphine.psl.eu  & bertrand.villeneuve@dauphine.psl.eu                           \\
++33 6 60 99 67 33                 & +33 01 44 05 45 25                           
+\end{tabular}
+\end{table}
+
+  \item M.A. Economics, University of Paris Dauphine - PSL, Paris, France, 2018  (\textit{Summa cum laude})
+  
+  \item B.A. Economics, University of Paris Dauphine - PSL, Paris, France, 2016
+
 \end{itemize}
 
-% --- grants / awards ---
-\cvsection{Grants \& Awards}
+\section*{\textbf{Research Fields}}
+
 \begin{itemize}
-  \item [2024] Award / Grant Name, Organization.
+\item Energy and Environmental Economics – Industrial Organization - Market-Design - Regulation
 \end{itemize}
 
-% --- talks ---
-\cvsection{Talks    \&    Conferences}
+\section*{\textbf{Visiting Positions}}
+
 \begin{itemize}
-  \item EAERE (2024); CEEM; ADRES; Aalto Applied Micro; etc.
+\item Visiting Research Scholar, Melbourne University - Centre for Market Design (sponsored by Prof. \textcolor{darkcerulean}{\MYhref{https://sites.google.com/view/dprbyrne/david-p-byrne-university-of-melbourne}{David Byrne}}). Dec. - Jan. 2022-2023
 \end{itemize}
 
-% --- teaching ---
-\cvsection{Teaching}
+
+\section*{\textbf{Teaching Experience}}
+
 \begin{itemize}
-  \item Microeconomics (UG/PG); Industrial Organization; Problem sets; Exam design.
+
+\item \textbf{Lecturer, Microeconomics} - University of Paris Dauphine (\textbf{6 years - 2018 - 2024})
+
+\textit{Responsibilities}: one or two groups of 2nd year undergraduate students of around 25-30. The course is over a full academic year with 24 classes of 1h30. In charge of preparing the entire course, including redaction of problem sets, redaction and grading of midterm examinations, and grading of final examinations.
+
+\item \textbf{Teaching Assistant, Industrial Organization} - University of Paris Dauphine (\textbf{3 years - 2021 - 2024})
+
+\textit{Responsibilities}: one group of 3nd year undergraduate students of around 25-30. The course is over one academic semester with twelve classes of 1h30. In charge of teaching the problem set session and redaction of midterm examinations. \textit{Instructor}: Prof. Bertrand Villeneuve.  
+
+\item \textbf{Teaching Assistant, Microeconomic Policy} - Aalto University (\textbf{1 year - 2024 - 2025})
+
+\textit{Responsibilities}: one group of master students of around 40. The course is over one academic semester with three classes of 2h. In charge of redaction and teaching the problem-set sessions. \textit{Instructor}: Prof. Matti Liski.  
 \end{itemize}
 
-% --- skills ---
-\cvsection{Skills}
-\cvitem{Methods}{Mechanism design, IO, welfare analysis}
-\cvitem{Tools}{MATLAB, LaTeX, Python, Stata}
-\cvitem{Languages}{French (native), English (professional), Finnish (beginner)}
+\section*{\textbf{Administrative Experience}}
 
-% --- service ---
-\cvsection{Service}
-Referee service, seminar organization (Helsinki/Aalto Environmental Economics Seminar), etc.
+\begin{itemize}
+
+\item \textbf{Conference Organizer}
+
+\item \textcolor{darkcerulean}{\MYhref{https://leopoldmonjoie.com/files/Programme_PhD_Day.pdf}{"1rst CEEM Ph.D. Conference - Toward a new electricity market model?"}}, 2023
+
+\textcolor{darkcerulean}{\MYhref{https://leopoldmonjoie.com/files/Programme_PhD_Day_2.pdf}{"2nd CEEM Ph.D. Conference - Key issues for electricity market design"}}, 2024
+
+\textit{Responsibilities}: Redaction of the call for papers. Review and selection of the submission. Management of the conference and speakers.
+
+\item \textbf{Seminar Organizer}
+\item "CGEMP Energy, Environment and Climate Ph.D. Seminar" with Daniel Herrera-Araujo and Stephanie Monjon.
+
+\textit{Responsibilities}: Management of the seminars and speakers.
+
+\end{itemize}
+
+
+
+
+\section*{\textbf{Research}}
+
+\begin{itemize}
+\item (\textcolor{darkblue}{\MYhref{http://leopoldmonjoie.com/files/monjoie_jmp.pdf}{\textbf{JMP}}})  
+ "Designing Markets for Reliability with Incomplete Information"
+\end{itemize}
+
+
+\subsection*{Working Papers}
+
+\begin{itemize}
+\item "Securing investment for essential goods. How to design demand functions in reservation markets?" (with Fabien Roques)   \textcolor{darkblue}{\MYhref{http://leopoldmonjoie.com/files/WP_Leopold_Monjoie.pdf}{2022 CEEM Working Paper 55}}.
+\item "Designing efficient capacity mechanisms: bidding behavior and product definition."  (with Fabien Roques)  \textcolor{darkblue}{\MYhref{http://leopoldmonjoie.com/files/WP54_Designing_efficient_capacity_mechanisms_bidding_behavior_and_product_definition_.pdf}{2021 CEEM Working Paper 54}}.
+\end{itemize}
+
+
+\subsection*{Other works}
+
+\begin{itemize}
+\item Allocating the cost of long term contracts – a review of issues and potential approaches (with Fabien Roques)
+\item Simulating the impact of product design and risk on a power plant value with a capacity market
+\item Contracts and risk in electricity markets. Implications for the electro-intensive industry
+\item Vertical integration and retail competition with an incumbent
+\end{itemize}
+
+
+\section*{\textbf{Seminar and Conference Presentations}}
+ 
+ \/
+
+
+
+French Association for Energy Economics seminar (FAEE) \hfill \hfill \textbf{2023}
+
+
+
+European Association for Research in Industrial Economics (EARIE)
+
+European Association of Environmental and Resource Economists (EAERE)
+
+Conference on Economic Design
+
+International Industrial Organization Conference (IIOC)
+
+CEEM Annual International Conference
+
+
+\vspace{0.5cm}
+
+Summer School on Economic Foundations for Energy and Climate - FSR \hfill \hfill  \textbf{2022}
+
+Asia-Pacific Industrial Organization Conference (APIOC)
+
+European Association for Research in Industrial Economics (EARIE)
+
+European Economic Association Conference (EEA)
+
+European Association of Environmental and Resource Economists (EAERE)
+
+\vspace{0.5cm}
+
+French Association of Economic Science (AFSE) \hfill \hfill \textbf{2021}
+
+International Association for Energy Economics (IAEE) 
+
+US Association for Energy Economics (USAEE)
+
+European Association of Environmental and Resource Economists (EAERE)
+
+Microsoft - Sixth Marketplace Innovation Workshop
+
+International Energy Workshop (IEW)
+
+CEEM Annual International Conference
+
+\vspace{0.5cm}
+
+French Association for Energy Economics seminar (FAEE)  \hfill \hfill \textbf{2020}
+
+BiGSEM Workshop in Economics and Management
+
+
+\section*{\textbf{Awards}}
+
+2nd-Best Paper Award - French Association for Energy Economics seminar (FAEE) \hfill \hfill 2023
+
+Nominated for the Best Student Paper - International Association for Energy Economics (IAEE) \hfill \hfill 2021
+
+Best Poster Award - US Association for Energy Economics (USAEE) \hfill \hfill 2021
+
+2nd-Best Paper Award - French Association for Energy Economics seminar (FAEE) \hfill \hfill 2020
+
+
+\section*{\textbf{Referee Experience}} Revue Economique
+
+\section*{\textbf{Work Experience}}
+
+\subsection*{Industrial and Policy Partnership}
+
+\begin{itemize}
+    \item 2018 – 2022 Joint work with the French Transmission System Operator
+RTE on the possible evolution of the European electricity system's market design.
+
+\item 2020 – 2021 Joint work with the Chaire European Electricity Market on the transversal research theme of 2020/21, devoted to "Financing Long-Term Investment in Hybrid Electricity Markets." I contribute to two research groups: (i) The
+The link between Short Term Dispatch and Long-Term Financing and
+(ii) Retail Tariffs and Investment.
+\end{itemize}
+
+
+\subsection*{Internship
+}
+\begin{itemize}
+    \item 2018 Junior Economist – RTE (Paris)
+    \item 2017 Research Officer – NERA Economic Consulting (Paris)
+    \item 2016 Economic Analyst – France Energie Eolienne (Paris)
+ \end{itemize}
+
+\bigskip
+
 
 \end{document}

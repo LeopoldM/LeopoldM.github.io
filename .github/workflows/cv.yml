@@ -17,13 +17,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX to PDF (LuaLaTeX)
+      - name: Compile LaTeX to PDF (pdfLaTeX)
         uses: xu-cheng/latex-action@v3
         with:
           docker_image: ghcr.io/xu-cheng/texlive-full:latest
           working_directory: cv
           root_file: monjoie_cv.tex
           latexmk_use_lualatex: true
+          compiler: pdflatex
+          continue_on_error: true
+          pre_compile: |
+            tlmgr update --self
+            tlmgr install geometry tabularx xcolor hyperref sectsty mathpazo
           # no pre/post compile, no tlmgr
 
       - name: Prepare output folder
