@@ -17,19 +17,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX to PDF (pdfLaTeX)
-        uses: xu-cheng/latex-action@v3
-        with:
-          docker_image: ghcr.io/xu-cheng/texlive-full:latest
-          working_directory: cv
-          root_file: monjoie_cv.tex
-          latexmk_use_lualatex: true
-          compiler: pdflatex
-          continue_on_error: true
-          pre_compile: |
-            tlmgr update --self
-            tlmgr install geometry tabularx xcolor hyperref sectsty mathpazo
-          # no pre/post compile, no tlmgr
+    - name: Compile LaTeX to PDF (pdflatex via latexmk)
+    uses: xu-cheng/latex-action@v3
+    with:
+    working_directory: cv
+    root_file: monjoie_cv.tex
+    # Use latexmk with pdflatex (default)
+    compiler: latexmk
+    args: -pdf -halt-on-error -file-line-error
+    continue_on_error: true
+    pre_compile: |
+      tlmgr update --self
+      tlmgr install geometry tabularx xcolor hyperref sectsty mathpazo
 
       - name: Prepare output folder
         run: mkdir -p public
