@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item" style="margin-bottom:1.75rem">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -26,42 +26,44 @@
       </div>
     {% endif %}
 
-    <h3>
+    <!-- Title (not bold) -->
+    <h3 style="font-weight:400; margin-top:0">
       {% if post.collection == 'publications' %}
-         <p>  &#9632; &nbsp; {{ title }}   </p>
+        <span>&#9632;&nbsp; {{ title }}</span>
       {% elsif post.collection == 'workinprogress' %}
-        {{ title }}
+        <span>{{ title }}</span>
       {% elsif post.collection == 'jobmarket' %}
-        {{ title }} 
-	    {% elsif post.collection == 'conference' %}
-        {{ title }}
-	  {% elsif post.collection == 'talks' %}
-        {{ title }}
+        <span>{{ title }}</span>
+      {% elsif post.collection == 'conference' %}
+        <span>{{ title }}</span>
+      {% elsif post.collection == 'talks' %}
+        <span>{{ title }}</span>
       {% elsif post.collection == 'teaching' %}
-        {{ title }}
+        <span>{{ title }}</span>
       {% endif %}
     </h3>
-    
-	
-	
-   	{% if post.author %}
-        <p1>{{ post.author }}  </p1>
-      {% endif %}
-      
-      {% if post.abstract %}
-        <details><summary>Abstract</summary>
-        <blockquote>
-        <p align="justify" >
-        {{ post.abstract }}
-        </p>
-        </blockquote>
-        </details>
-      {% endif %}
 
-      <!-- citation and icon code -->
-      <p>
+    <!-- Authors -->
+    {% if post.author %}
+      <p style="margin:0 0 .25rem 0">{{ post.author }}</p>
+    {% endif %}
+
+    <!-- Abstract (not italic) -->
+    {% if post.abstract %}
+      <details>
+        <summary>Abstract</summary>
+        <blockquote style="font-style:normal; margin:.5rem 0 0 0">
+          <p align="justify" style="margin:.25rem 0 0 0">
+            {{ post.abstract }}
+          </p>
+        </blockquote>
+      </details>
+    {% endif %}
+
+    <!-- Citation + icons -->
+    <p style="margin:.5rem 0 0 0">
       {% if post.citation %}
-        {{ post.citation }}
+        <cite style="font-style:italic; font-size:0.92em">{{ post.citation }}</cite>
       {% endif %}
       {% if post.link %}
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
@@ -75,10 +77,7 @@
       {% if post.github %}
         <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
       {% endif %}
-      </p>
- 
-    
-    
+    </p>
+
   </article>
 </div>
-

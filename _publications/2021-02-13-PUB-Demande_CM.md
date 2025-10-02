@@ -2,6 +2,7 @@
 title: "Securing investment for essential goods. How to design demand functions in reservation markets?"
 collection: publications
 author: (with Fabien Roques)
+author: with <a href="https://www.compasslexecon.com/professionals/fabien-roques">Fabien Roques</a>
 categories: wp
 permalink: /publication/2010-10-01-paper-title-number-1
 date: 2022-01-01
