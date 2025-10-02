@@ -1,5 +1,5 @@
 ---
-title: "1rst CEEM Ph.D. Conference - Toward a new electricity market model?"
+title: "1st CEEM Ph.D. Conference - Toward a new electricity market model?"
 collection: conference
 categories : conf
 permalink: 
