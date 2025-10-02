@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 
 ------
 
-I am a postdoctoral researcher in Environmental Economics at Aalto University. My research interests lie at the crossroads between market Design, regulation, and industrial organisation.
+I am a postdoctoral researcher in Environmental Economics at Aalto University. My research interests lie at the crossroads between market design, regulation, and industrial organisation.
 
 I received my Ph.D. in Economics from the University of Paris Dauphine—PSL in 2024.  
 
