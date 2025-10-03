@@ -321,7 +321,8 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
+feed:
+  path: feed.xml
 
 # Archives
 #  Type
