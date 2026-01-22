@@ -6,10 +6,23 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
   <body>
 

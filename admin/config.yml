@@ -1,0 +1,273 @@
+backend:
+  name: git-gateway
+  branch: main # or 'master' if that's your default branch
+
+# Media files (images, PDFs)
+media_folder: "files"
+public_folder: "/files"
+
+# Site URL for previews
+site_url: https://leopoldmonjoie.com
+display_url: https://leopoldmonjoie.com
+
+# Logo in the admin panel (optional)
+logo_url: https://leopoldmonjoie.com/images/profile_pic_2.jpeg
+
+# ===========================================
+# COLLECTIONS - These are your content types
+# ===========================================
+
+collections:
+
+  # =========================================
+  # PUBLICATIONS
+  # =========================================
+  - name: "publications"
+    label: "📄 Publications"
+    label_singular: "Publication"
+    folder: "_publications"
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ['title', 'date', 'order']
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        
+      - label: "Order (lower = appears first)"
+        name: "order"
+        widget: "number"
+        default: 10
+        hint: "Use this to control the order of papers. 1 = top, 2 = second, etc."
+        
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Main Work", value: "main" }
+          - { label: "Working Paper", value: "working" }
+          - { label: "Work in Progress", value: "progress" }
+          - { label: "Other", value: "other" }
+        default: "working"
+        
+      - label: "Authors"
+        name: "authors"
+        widget: "string"
+        hint: "e.g., 'with Julien Duc and Fabien Roques'"
+        required: false
+        
+      - label: "Coauthor URLs (one per line)"
+        name: "coauthor_urls"
+        widget: "text"
+        required: false
+        hint: "One URL per line, in same order as authors"
+        
+      - label: "Abstract"
+        name: "excerpt"
+        widget: "text"
+        required: false
+        
+      - label: "Publication Venue"
+        name: "venue"
+        widget: "string"
+        required: false
+        hint: "e.g., 'CEEM Working Paper 55' or 'Journal of Economic Theory'"
+        
+      - label: "Year"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY"
+        time_format: false
+        required: false
+        
+      - label: "PDF Link"
+        name: "paperurl"
+        widget: "string"
+        required: false
+        hint: "URL to the PDF (can be relative like /files/paper.pdf)"
+        
+      - label: "Slides Link"
+        name: "slidesurl"
+        widget: "string"
+        required: false
+        
+      - label: "DOI"
+        name: "doi"
+        widget: "string"
+        required: false
+        
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "Published", value: "published" }
+          - { label: "Revise & Resubmit", value: "r&r" }
+          - { label: "Submitted", value: "submitted" }
+          - { label: "Working Paper", value: "working" }
+          - { label: "In Progress", value: "progress" }
+        required: false
+        default: "working"
+
+  # =========================================
+  # TALKS
+  # =========================================
+  - name: "talks"
+    label: "🎤 Talks"
+    label_singular: "Talk"
+    folder: "_talks"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    sortable_fields: ['date', 'title']
+    fields:
+      - label: "Conference/Venue Name"
+        name: "title"
+        widget: "string"
+        
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        
+      - label: "Year"
+        name: "year"
+        widget: "number"
+        hint: "e.g., 2024"
+        
+      - label: "Location"
+        name: "location"
+        widget: "string"
+        required: false
+        hint: "e.g., Paris, France"
+        
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Conference", value: "Conference" }
+          - { label: "Seminar", value: "Seminar" }
+          - { label: "Workshop", value: "Workshop" }
+          - { label: "Invited Talk", value: "Invited" }
+        default: "Conference"
+        
+      - label: "Paper Presented"
+        name: "paper"
+        widget: "string"
+        required: false
+        hint: "Title of the paper you presented"
+        
+      - label: "Award (if any)"
+        name: "award"
+        widget: "string"
+        required: false
+        hint: "e.g., Best Paper Award, Best Poster"
+        
+      - label: "Slides URL"
+        name: "slidesurl"
+        widget: "string"
+        required: false
+        
+      - label: "Description"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  # =========================================
+  # TEACHING
+  # =========================================
+  - name: "teaching"
+    label: "📚 Teaching"
+    label_singular: "Course"
+    folder: "_teaching"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Course Title"
+        name: "title"
+        widget: "string"
+        
+      - label: "Order (lower = appears first)"
+        name: "order"
+        widget: "number"
+        default: 10
+        
+      - label: "Institution"
+        name: "institution"
+        widget: "string"
+        hint: "e.g., University of Paris Dauphine-PSL"
+        
+      - label: "Role"
+        name: "role"
+        widget: "select"
+        options:
+          - { label: "Instructor", value: "Instructor" }
+          - { label: "Teaching Assistant", value: "Teaching Assistant" }
+          - { label: "Guest Lecturer", value: "Guest Lecturer" }
+        default: "Teaching Assistant"
+        
+      - label: "Semester & Year"
+        name: "date"
+        widget: "string"
+        hint: "e.g., Fall 2023"
+        
+      - label: "Level"
+        name: "level"
+        widget: "select"
+        options:
+          - { label: "Undergraduate", value: "Undergraduate" }
+          - { label: "Graduate", value: "Graduate" }
+          - { label: "PhD", value: "PhD" }
+        required: false
+        
+      - label: "Course Description"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  # =========================================
+  # SITE SETTINGS (your profile info)
+  # =========================================
+  - name: "settings"
+    label: "⚙️ Site Settings"
+    files:
+      - name: "config"
+        label: "Profile & Site Info"
+        file: "_config.yml"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+            
+          - label: "Title/Position"
+            name: "title"
+            widget: "string"
+            hint: "e.g., Postdoctoral Fellow @Aalto University"
+            
+          - label: "Bio"
+            name: "bio"
+            widget: "text"
+            
+          - label: "Location"
+            name: "location"
+            widget: "string"
+            
+          - label: "Email"
+            name: "email"
+            widget: "string"
+            
+          - label: "Twitter Username"
+            name: "twitter_username"
+            widget: "string"
+            required: false
+            
+          - label: "GitHub Username"
+            name: "github_username"
+            widget: "string"
+            required: false
+            
+          - label: "LinkedIn Username"
+            name: "linkedin_username"
+            widget: "string"
+            required: false
