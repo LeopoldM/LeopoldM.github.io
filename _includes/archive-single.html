@@ -27,9 +27,13 @@
     {% endif %}
 
     <!-- Title (not bold) -->
-    <h3 style="font-weight:400; margin-top:0">
-      {% if post.collection == 'publications' %}
-        <span>&#9632;&nbsp; {{ title }}</span>
+<h3 style="font-weight:400; margin-top:0">
+  {% if post.collection == 'publications' %}
+    {% if post.paperurl and post.categories contains 'jmp' %}
+      <span>&#9632;&nbsp; {{ title }} <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a></span>
+    {% else %}
+      <span>&#9632;&nbsp; {{ title }}</span>
+    {% endif %}
       {% elsif post.collection == 'workinprogress' %}
         <span>{{ title }}</span>
       {% elsif post.collection == 'jobmarket' %}
@@ -67,9 +71,6 @@
       {% endif %}
       {% if post.link %}
         <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
