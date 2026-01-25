@@ -29,7 +29,7 @@
     <!-- Title (not bold) -->
 <h3 style="font-weight:400; margin-top:0">
   {% if post.collection == 'publications' %}
-    {% if post.paperurl and post.categories contains 'jmp' %}
+    {% if post.paperurl %}
       <span>&#9632;&nbsp; {{ title }} <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a></span>
     {% else %}
       <span>&#9632;&nbsp; {{ title }}</span>
