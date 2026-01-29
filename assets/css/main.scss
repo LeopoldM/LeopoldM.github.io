@@ -57,3 +57,11 @@ hr.new1 {
 hr.new2 {
   border-top: 3px solid #909497;
 }
+
+html, body, p, li, td, th, blockquote {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
