@@ -48,10 +48,9 @@ const groupedSections = sections.map((section) => ({
     {groupedSections.map((section) =>
       section.papers.length > 0 && (
         <section class="research-section" aria-labelledby={`${section.category}-title`}>
-          <div class="research-section-heading">
-            <div class="kicker">{section.category}</div>
-            <h2 id={`${section.category}-title`}>{section.title}</h2>
-          </div>
+<div class="research-section-heading">
+  <div class="kicker">{section.label}</div>
+</div>
 
           <div class="paper-list">
             {section.papers.map((paper, index) => (
