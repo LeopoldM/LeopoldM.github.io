@@ -915,6 +915,6 @@ a:hover {
   grid-template-rows: auto minmax(7.5rem, auto) auto 1fr auto auto;
 }
 
-.section-label p {
+.section-grid .section-label p {
   margin-top: 3.2rem;
 }
