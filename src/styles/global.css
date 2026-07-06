@@ -918,3 +918,14 @@ a:hover {
 .section-grid .section-label p {
   margin-top: 3.2rem;
 }
+
+/* Reduce space between abstract block and paper info on research page */
+.paper-record .paper-abstract {
+  margin-top: 1rem;
+  padding: 0.75rem 0;
+}
+
+.paper-record .paper-info {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+}
