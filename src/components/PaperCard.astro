@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  paper: CollectionEntry<"papers">;
+}
+
+const { paper } = Astro.props;
+
+const authors = paper.data.authors.map((author) => author.name).join(", ");
+
+const categoryLabels = {
+  "main-work": "Main Work",
+  "working-paper": "Working Paper",
+  "work-in-progress": "Work in Progress",
+};
+
+const paperCategory = categoryLabels[paper.data.category];
+---
+
+<article class="paper-card">
+  <div class="paper-type">{paperCategory}</div>
+
+  <h3>{paper.data.title}</h3>
+
+  {paper.data.description && <p>{paper.data.description}</p>}
+
+  <div class="paper-meta">
+    <div>Authors: {authors}</div>
+    <div>Status: {paper.data.status}</div>
+    <div>Year: {paper.data.year}</div>
+    {paper.data.journal && <div>Journal: {paper.data.journal}</div>}
+  </div>
+
+  <div class="paper-links">
+    {paper.data.links?.draft && <a href={paper.data.links.draft}>Draft</a>}
+    {paper.data.links?.published && <a href={paper.data.links.published}>Published</a>}
+    {paper.data.links?.slides && <a href={paper.data.links.slides}>Slides</a>}
+    {paper.data.links?.code && <a href={paper.data.links.code}>Code</a>}
+  </div>
+</article>

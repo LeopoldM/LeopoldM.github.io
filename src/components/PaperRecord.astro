@@ -1,0 +1,88 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  paper: CollectionEntry<"papers">;
+  index: number;
+}
+
+const { paper, index } = Astro.props;
+
+const authors = paper.data.authors;
+
+const hasAbstract = Boolean(paper.data.abstract && paper.data.abstract.trim().length > 0);
+const hasDownload = Boolean(paper.data.links?.draft);
+---
+
+<article class="paper-record">
+  <div class="paper-record-number">
+    {String(index + 1).padStart(2, "0")}
+  </div>
+
+  <div class="paper-record-content">
+    <h3>{paper.data.title}</h3>
+
+    {hasAbstract && (
+      <details class="paper-abstract">
+        <summary>Abstract</summary>
+        <p>{paper.data.abstract}</p>
+      </details>
+    )}
+
+    <div class="paper-info">
+      <div>
+        <span>Co-authors</span>
+        <p>
+          {authors.map((author, authorIndex) => (
+            <>
+              {author.url ? (
+                <a href={author.url} target="_blank" rel="noreferrer">
+                  {author.name}
+                </a>
+              ) : (
+                author.name
+              )}
+              {authorIndex < authors.length - 1 && ", "}
+            </>
+          ))}
+        </p>
+      </div>
+
+      <div>
+        <span>Status</span>
+        <p>{paper.data.status}</p>
+      </div>
+
+      <div>
+        <span>Year</span>
+        <p>{paper.data.year}</p>
+      </div>
+    </div>
+
+    <div class="paper-actions">
+      {hasDownload && (
+        <a href={paper.data.links?.draft} target="_blank" rel="noreferrer">
+          Download paper
+        </a>
+      )}
+
+      {paper.data.links?.published && (
+        <a href={paper.data.links.published} target="_blank" rel="noreferrer">
+          Published version
+        </a>
+      )}
+
+      {paper.data.links?.slides && (
+        <a href={paper.data.links.slides} target="_blank" rel="noreferrer">
+          Slides
+        </a>
+      )}
+
+      {paper.data.links?.code && (
+        <a href={paper.data.links.code} target="_blank" rel="noreferrer">
+          Code
+        </a>
+      )}
+    </div>
+  </div>
+</article>

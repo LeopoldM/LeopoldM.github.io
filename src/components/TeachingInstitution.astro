@@ -1,0 +1,28 @@
+---
+import { render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entry: CollectionEntry<"teaching">;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<article class="teaching-institution">
+  <div class="teaching-institution-meta">
+    <h3>{entry.data.title}</h3>
+
+    {(entry.data.location || entry.data.period) && (
+      <div class="teaching-meta-lines">
+        {entry.data.location && <div>{entry.data.location}</div>}
+        {entry.data.period && <div>{entry.data.period}</div>}
+      </div>
+    )}
+  </div>
+
+  <div class="teaching-institution-content">
+    <Content />
+  </div>
+</article>

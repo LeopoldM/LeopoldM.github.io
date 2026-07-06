@@ -1,0 +1,40 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Leopold Monjoie",
+  description = "Environmental economist working on market design, regulation, and electricity markets.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <div class="site-shell">
+      <aside class="site-rail" aria-label="Site identity">
+         <a class="home-link" href="/" aria-label="Back to homepage">
+    LM
+  </a>
+
+        <div class="rail-location">Helsinki / Copenhagen / Paris</div>
+        <div class="rail-mark"></div>
+      </aside>
+
+      <div class="page">
+        <slot />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import PaperRecord from "../components/PaperRecord.astro";
+
+const papers = await getCollection("papers");
+
+const sortedPapers = papers.sort((a, b) => {
+  const orderA = a.data.order ?? 999;
+  const orderB = b.data.order ?? 999;
+
+  if (orderA !== orderB) return orderA - orderB;
+  return b.data.year - a.data.year;
+});
+
+const sections = [
+  {
+    title: "Main Work",
+    category: "main-work",
+  },
+  {
+    title: "Working Papers",
+    category: "working-paper",
+  },
+  {
+    title: "Work in Progress",
+    category: "work-in-progress",
+  },
+];
+
+const groupedSections = sections.map((section) => ({
+  ...section,
+  papers: sortedPapers.filter((paper) => paper.data.category === section.category),
+}));
+---
+
+<BaseLayout title="Research | Leopold Monjoie">
+  <Header />
+
+  <main>
+    <section class="page-hero">
+      <div class="kicker">01 Research</div>
+      <h1>Research</h1>
+    </section>
+
+    {groupedSections.map((section) =>
+      section.papers.length > 0 && (
+        <section class="research-section" aria-labelledby={`${section.category}-title`}>
+          <div class="research-section-heading">
+            <div class="kicker">{section.category}</div>
+            <h2 id={`${section.category}-title`}>{section.title}</h2>
+          </div>
+
+          <div class="paper-list">
+            {section.papers.map((paper, index) => (
+              <PaperRecord paper={paper} index={index} />
+            ))}
+          </div>
+        </section>
+      )
+    )}
+  </main>
+
+  <Footer />
+</BaseLayout>

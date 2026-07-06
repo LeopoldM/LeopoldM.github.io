@@ -1,0 +1,23 @@
+---
+import { render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  yearEntry: CollectionEntry<"talks">;
+}
+
+const { yearEntry } = Astro.props;
+const { Content } = await render(yearEntry);
+
+const isTextLabel = isNaN(Number(yearEntry.data.title));
+---
+
+<article class="talk-year">
+<div class:list={["talk-year-label", { "talk-year-label-text": isNaN(Number(yearEntry.data.title)) }]}>
+  {yearEntry.data.title}
+</div>
+
+  <div class="talk-year-content">
+    <Content />
+  </div>
+</article>

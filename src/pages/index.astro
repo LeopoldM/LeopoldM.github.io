@@ -1,0 +1,85 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ModernistPanel from "../components/ModernistPanel.astro";
+import PaperCard from "../components/PaperCard.astro";
+
+const papers = await getCollection("papers");
+
+const featuredPapers = papers
+  .filter((paper) => paper.data.featured)
+  .sort((a, b) => {
+    const orderA = a.data.order ?? 999;
+    const orderB = b.data.order ?? 999;
+    return orderA - orderB;
+  })
+  .slice(0, 2);
+---
+
+<BaseLayout title="Leopold Monjoie">
+  <Header />
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1 class="hero-title">Leopold<br />Monjoie</h1>
+        <div class="accent-rule"></div>
+
+        <p class="hero-intro">
+          Environmental economist working on market design, regulation, and
+          electricity markets.
+        </p>
+
+        <div class="status-list">
+          <div>Postdoctoral Researcher at Aalto University</div>
+          <div>Incoming Assistant Professor at Copenhagen Business School & Copenhagen School of Energy Infrastructure </div>
+        </div>
+      </div>
+
+      <ModernistPanel />
+    </section>
+
+    <section class="section-grid" aria-labelledby="research-axes-title">
+      <div class="section-label">
+        <div class="kicker">Research Axes</div>
+        <p>
+          My research sits at the intersection of industrial organization, market design, and public economics.
+        </p>
+      </div>
+
+      <article class="axis">
+        <div class="axis-number">01</div>
+        <h3>Retail electricity <br /> markets</h3>
+        <p>Consumer choice, adverse selection, dynamic pricing.</p>
+      </article>
+
+      <article class="axis">
+        <div class="axis-number">02</div>
+        <h3>Capacity and<br />reliability</h3>
+        <p>Peak-load pricing, investment decision, capacity constraints.</p>
+      </article>
+
+      <article class="axis">
+        <div class="axis-number">03</div>
+        <h3>Regulation and<br />redistribution</h3>
+        <p>Optimal mechanism design, equity, policy constraints.</p>
+      </article>
+    </section>
+
+<section class="selected-work" aria-labelledby="selected-work-title">
+  <div class="work-intro">
+    <div class="kicker">Selected Work</div>
+<a class="section-button" href="/research/">
+  More work
+</a>
+  </div>
+
+  {featuredPapers.map((paper) => <PaperCard paper={paper} />)}
+</section>
+
+  </main>
+
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import TeachingInstitution from "../components/TeachingInstitution.astro";
+import SeminarRecord from "../components/SeminarRecord.astro";
+
+const teachingEntries = await getCollection("teaching");
+const seminarEntries = await getCollection("seminars");
+
+const sortedTeaching = teachingEntries.sort((a, b) => a.data.order - b.data.order);
+
+const sortedSeminars = seminarEntries.sort((a, b) => {
+  const orderA = a.data.order ?? 999;
+  const orderB = b.data.order ?? 999;
+
+  if (orderA !== orderB) return orderA - orderB;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+---
+
+<BaseLayout title="Teaching | Leopold Monjoie">
+  <Header />
+
+  <main>
+    <section class="page-hero">
+      <div class="kicker">02 Teaching</div>
+      <h1>Teaching</h1>
+    </section>
+
+    <section class="teaching-section" aria-labelledby="teaching-title">
+      <div class="teaching-section-heading">
+        <div class="kicker">Teaching</div>
+        <h2 id="teaching-title">Courses</h2>
+      </div>
+
+      <div class="teaching-list">
+        {sortedTeaching.map((entry) => (
+          <TeachingInstitution entry={entry} />
+        ))}
+      </div>
+    </section>
+
+    <section class="teaching-section" aria-labelledby="seminars-title">
+      <div class="teaching-section-heading">
+        <div class="kicker">Academic Work</div>
+        <h2 id="seminars-title">Seminar and Conference Organization</h2>
+      </div>
+
+      <div class="seminar-list">
+        {sortedSeminars.map((seminar, index) => (
+          <SeminarRecord seminar={seminar} index={index} />
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

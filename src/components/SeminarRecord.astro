@@ -1,0 +1,75 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  seminar: CollectionEntry<"seminars">;
+  index: number;
+}
+
+const { seminar, index } = Astro.props;
+
+const date = seminar.data.date.getFullYear();
+
+const hasAbstract = Boolean(
+  seminar.data.abstract && seminar.data.abstract.trim().length > 0
+);
+---
+
+<article class="seminar-record">
+  <div class="seminar-record-number">
+    {String(index + 1).padStart(2, "0")}
+  </div>
+
+  <div class="seminar-record-content">
+    <h3>{seminar.data.title}</h3>
+
+    {hasAbstract && (
+      <details class="paper-abstract">
+        <summary>Abstract</summary>
+        <p>{seminar.data.abstract}</p>
+      </details>
+    )}
+
+    <div class="seminar-info">
+      <div>
+        <span>Date</span>
+        <p>{date}</p>
+      </div>
+
+      {seminar.data.venue && (
+        <div>
+          <span>Venue</span>
+          <p>{seminar.data.venue}</p>
+        </div>
+      )}
+
+	  {seminar.data.mainOrganizer && (
+  <div>
+    <span>Role</span>
+    <p>{seminar.data.mainOrganizer}</p>
+  </div>
+)}
+      {seminar.data.citation && (
+        <div>
+          <span>Citation</span>
+          <p>{seminar.data.citation}</p>
+        </div>
+      )}
+    </div>
+
+    <div class="paper-actions">
+      {seminar.data.paperurl && (
+        <a href={seminar.data.paperurl} target="_blank" rel="noreferrer">
+          Programme
+        </a>
+      )}
+
+      {seminar.data.link && (
+        <a href={seminar.data.link} target="_blank" rel="noreferrer">
+          Event page
+        </a>
+      )}
+
+    </div>
+  </div>
+</article>

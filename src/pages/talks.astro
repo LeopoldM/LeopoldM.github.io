@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import TalkYear from "../components/TalkYear.astro";
+
+const talkYears = await getCollection("talks");
+
+const sortedTalkYears = talkYears.sort((a, b) => {
+  const orderA = a.data.order ?? 999;
+  const orderB = b.data.order ?? 999;
+
+  return orderA - orderB;
+});
+
+const upcomingTalks = talkYears
+  .filter((entry) => entry.data.upcoming)
+  .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+
+const pastTalks = talkYears
+  .filter((entry) => !entry.data.upcoming)
+  .sort((a, b) => Number(b.data.title) - Number(a.data.title));
+
+---
+
+<BaseLayout title="Talks | Leopold Monjoie">
+  <Header />
+
+  <main>
+    <section class="page-hero">
+      <div class="kicker">03 Talks</div>
+      <h1>Talks</h1>
+    </section>
+
+    <section class="talks-archive" aria-label="Talks by year">
+      {sortedTalkYears.map((yearEntry) => (
+        <TalkYear yearEntry={yearEntry} />
+      ))}
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

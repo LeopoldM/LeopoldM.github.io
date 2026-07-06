@@ -1,0 +1,19 @@
+---
+title: "Self-Selection in Retail Electricity Contracts"
+category: "main-work"
+status: "Working paper"
+authors:
+  - name: "Leopold Monjoie"
+    url: ""
+  - name: "Julien Duc"
+    url: "https://www.julienduc.net/home"
+year: 2026
+order: 2
+featured: true
+description: ""
+abstract: "We study equilibrium contract adoption in retail electricity markets in which consumers differ in their willingness to pay over time and can choose between a fixed-price contract (FP) and real-time pricing contract (RTP). Self-selection alters the consumption profile and, in turn, the cost of serving FP customers, creating an adverse-selection channel with endogenous costs. In a competitive retail segment, this channel unravels the FP contract, any private retailer that attracts FP customers is left with a pool that is too costly to serve at break-even. Under a regulated monopoly offering the FP contract, contract choice instead disciplines pricing, the monopoly internalizes consumer sorting to the RTP contract and may cut its price to retain low-cost customers. This pricing response can increase inefficient peak consumption and reduce welfare relative to a benchmark without an RTP contract. We characterize the monopoly’s pricing rule, show how consumer heterogeneity governs the strength of the sorting incentive, and discuss regulatory instruments (two-part tariffs and loss-financing rules) that mitigate the welfare cost of opt-in RTP contracts."
+links:
+  draft: "/papers/self-selection-electricity.pdf"
+  slides: ""
+  code: ""
+---
