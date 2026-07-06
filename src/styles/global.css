@@ -295,7 +295,7 @@ a:hover {
 
 .selected-work {
   display: grid;
-  grid-template-columns: 0.7fr 1fr 1fr;
+  grid-template-columns: 11rem minmax(0, 1fr) minmax(0, 1fr);
   gap: 0;
   border-bottom: 1px solid var(--line);
 }
