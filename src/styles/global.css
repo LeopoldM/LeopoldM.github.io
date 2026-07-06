@@ -469,7 +469,7 @@ a:hover {
 
 .research-section {
   display: grid;
-  grid-template-columns: 0.7fr 2.3fr;
+  grid-template-columns: 11rem minmax(0, 1fr);
   border-bottom: 1px solid var(--line);
 }
 
