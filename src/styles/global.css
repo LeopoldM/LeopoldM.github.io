@@ -1085,10 +1085,21 @@ svg {
   filter: grayscale(100%);
 }
 
-/* Remove the oxide red overlay from the portrait */
+.portrait-panel {
+  position: relative;
+}
+
 .portrait-panel::after {
-  display: none;
-  content: none;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32%;
+  height: 22%;
+  background: var(--accent);
+  mix-blend-mode: multiply;
+  opacity: 0.85;
+  pointer-events: none;
 }
 
 @media (max-width: 900px) {
