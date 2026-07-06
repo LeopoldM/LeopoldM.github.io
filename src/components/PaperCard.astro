@@ -25,6 +25,13 @@ const paperCategory = categoryLabels[paper.data.category];
 
   {paper.data.description && <p>{paper.data.description}</p>}
 
+{paper.data.abstract && (
+  <details class="paper-abstract">
+    <summary>Abstract</summary>
+    <p>{paper.data.abstract}</p>
+  </details>
+)}
+
   <div class="paper-meta">
     <div>Authors: {authors}</div>
     <div>Status: {paper.data.status}</div>
