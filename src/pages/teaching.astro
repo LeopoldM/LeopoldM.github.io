@@ -44,7 +44,14 @@ const sortedSeminars = seminarEntries.sort((a, b) => {
 <div class="teaching-section-heading">
   <div class="kicker">Seminar and Conference Organization</div>
 </div>
+
+
     <section class="teaching-section" aria-labelledby="seminars-title">
+      <div class="teaching-section-heading">
+        <div class="kicker">Academic Work</div>
+        <h2 id="seminars-title">Seminar and Conference Organization</h2>
+      </div>
+
       <div class="seminar-list">
         {sortedSeminars.map((seminar, index) => (
           <SeminarRecord seminar={seminar} index={index} />
