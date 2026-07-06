@@ -9,13 +9,16 @@ import SeminarRecord from "../components/SeminarRecord.astro";
 const teachingEntries = await getCollection("teaching");
 const seminarEntries = await getCollection("seminars");
 
-const sortedTeaching = teachingEntries.sort((a, b) => a.data.order - b.data.order);
+const sortedTeaching = teachingEntries.sort((a, b) => {
+  return a.data.order - b.data.order;
+});
 
 const sortedSeminars = seminarEntries.sort((a, b) => {
   const orderA = a.data.order ?? 999;
   const orderB = b.data.order ?? 999;
 
   if (orderA !== orderB) return orderA - orderB;
+
   return b.data.date.getTime() - a.data.date.getTime();
 });
 ---
@@ -27,33 +30,28 @@ const sortedSeminars = seminarEntries.sort((a, b) => {
     <section class="page-hero">
       <div class="kicker">02 Teaching</div>
       <h1>Teaching</h1>
+      <p>
+        Teaching, academic supervision, and seminar organization.
+      </p>
     </section>
-
-<div class="teaching-section-heading">
-  <div class="kicker">Teaching</div>
-</div>
 
     <section class="teaching-section" aria-labelledby="teaching-title">
       <div class="teaching-section-heading">
-        <div class="kicker">Teaching</div>
-        <h2 id="teaching-title">Courses</h2>
+        <div class="kicker" id="teaching-title">Teaching</div>
       </div>
 
+      <div class="teaching-list">
         {sortedTeaching.map((entry) => (
           <TeachingInstitution entry={entry} />
         ))}
       </div>
     </section>
 
-<div class="teaching-section-heading">
-  <div class="kicker">Seminar and Conference Organization</div>
-</div>
-
-
     <section class="teaching-section" aria-labelledby="seminars-title">
       <div class="teaching-section-heading">
-        <div class="kicker">Academic Work</div>
-        <h2 id="seminars-title">Seminar and Conference Organization</h2>
+        <div class="kicker" id="seminars-title">
+          Seminar and Conference Organization
+        </div>
       </div>
 
       <div class="seminar-list">
