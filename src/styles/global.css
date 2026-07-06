@@ -1115,3 +1115,20 @@ svg {
     font-size: clamp(3.8rem, 17vw, 5.8rem);
   }
 }
+
+
+/* Let research paper content use the full available width */
+.paper-list {
+  width: 100%;
+}
+
+.paper-record-content {
+  width: 100%;
+}
+
+.paper-record-content h3,
+.paper-description,
+.paper-abstract,
+.paper-abstract p {
+  max-width: none;
+}
