@@ -32,12 +32,10 @@ const paperCategory = categoryLabels[paper.data.category];
   </details>
 )}
 
-  <div class="paper-meta">
-    <div>Authors: {authors}</div>
-    <div>Status: {paper.data.status}</div>
-    <div>Year: {paper.data.year}</div>
-    {paper.data.journal && <div>Journal: {paper.data.journal}</div>}
-  </div>
+<div class="paper-meta">
+  <div>Authors: {authors}</div>
+  {paper.data.journal && <div>Journal: {paper.data.journal}</div>}
+</div>
 
   <div class="paper-links">
     {paper.data.links?.draft && <a href={paper.data.links.draft}>Draft</a>}
